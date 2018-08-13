@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  User.h
 //  Vaccine
 //
 //  Created by Chakrit on 2/6/2561 BE.
 //  Copyright © 2561 Admire. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
+@interface User : NSObject
 
 @end
-
