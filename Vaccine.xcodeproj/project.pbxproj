@@ -7,216 +7,141 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		229E146320C24A5A00BF70EB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E146220C24A5A00BF70EB /* LoginViewController.m */; };
-		229E146620C24B3C00BF70EB /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 229E146520C24B3C00BF70EB /* User.m */; };
-		22AEAB9020C240EC00F21EEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEAB8F20C240EC00F21EEE /* AppDelegate.m */; };
-		22AEAB9620C240EC00F21EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AEAB9420C240EC00F21EEE /* Main.storyboard */; };
-		22AEAB9820C240ED00F21EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22AEAB9720C240ED00F21EEE /* Assets.xcassets */; };
-		22AEAB9B20C240ED00F21EEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22AEAB9920C240ED00F21EEE /* LaunchScreen.storyboard */; };
-		22AEAB9E20C240ED00F21EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEAB9D20C240ED00F21EEE /* main.m */; };
-		22AEABA820C240EE00F21EEE /* VaccineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEABA720C240EE00F21EEE /* VaccineTests.m */; };
-		22AEABB320C240EE00F21EEE /* VaccineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22AEABB220C240EE00F21EEE /* VaccineUITests.m */; };
-		22AEABC220C2491700F21EEE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22AEABC120C2491700F21EEE /* GoogleService-Info.plist */; };
-		A45747BC8B3925C522701013 /* libPods-Vaccine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B041D4FD07310CAD6AE46AD7 /* libPods-Vaccine.a */; };
-		DE47EA80564AB1ACB68E330A /* libPods-VaccineUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 449633F29D304EC9070D8505 /* libPods-VaccineUITests.a */; };
-		F9D0CC9EC66E78578FCE6E91 /* libPods-VaccineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D913992E1FA9F4E8A57F562 /* libPods-VaccineTests.a */; };
+		1B6E1B15212155380056473B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B14212155380056473B /* AppDelegate.m */; };
+		1B6E1B18212155380056473B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B17212155380056473B /* ViewController.m */; };
+		1B6E1B1B212155380056473B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6E1B19212155380056473B /* Main.storyboard */; };
+		1B6E1B1D212155390056473B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6E1B1C212155390056473B /* Assets.xcassets */; };
+		1B6E1B20212155390056473B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6E1B1E212155390056473B /* LaunchScreen.storyboard */; };
+		1B6E1B23212155390056473B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B22212155390056473B /* main.m */; };
+		1B6E1B2D212155390056473B /* VaccineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B2C212155390056473B /* VaccineTests.m */; };
+		1B6E1B38212155390056473B /* VaccineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B37212155390056473B /* VaccineUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		22AEABA420C240EE00F21EEE /* PBXContainerItemProxy */ = {
+		1B6E1B29212155390056473B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 22AEAB8320C240EC00F21EEE /* Project object */;
+			containerPortal = 1B6E1B08212155380056473B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22AEAB8A20C240EC00F21EEE;
+			remoteGlobalIDString = 1B6E1B0F212155380056473B;
 			remoteInfo = Vaccine;
 		};
-		22AEABAF20C240EE00F21EEE /* PBXContainerItemProxy */ = {
+		1B6E1B34212155390056473B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 22AEAB8320C240EC00F21EEE /* Project object */;
+			containerPortal = 1B6E1B08212155380056473B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 22AEAB8A20C240EC00F21EEE;
+			remoteGlobalIDString = 1B6E1B0F212155380056473B;
 			remoteInfo = Vaccine;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D913992E1FA9F4E8A57F562 /* libPods-VaccineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VaccineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		229E146120C24A5A00BF70EB /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		229E146220C24A5A00BF70EB /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		229E146420C24B3C00BF70EB /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
-		229E146520C24B3C00BF70EB /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		22AEAB8B20C240EC00F21EEE /* Vaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		22AEAB8E20C240EC00F21EEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		22AEAB8F20C240EC00F21EEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		22AEAB9520C240EC00F21EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		22AEAB9720C240ED00F21EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		22AEAB9A20C240ED00F21EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		22AEAB9C20C240ED00F21EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22AEAB9D20C240ED00F21EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22AEABA320C240EE00F21EEE /* VaccineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22AEABA720C240EE00F21EEE /* VaccineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaccineTests.m; sourceTree = "<group>"; };
-		22AEABA920C240EE00F21EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22AEABAE20C240EE00F21EEE /* VaccineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		22AEABB220C240EE00F21EEE /* VaccineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaccineUITests.m; sourceTree = "<group>"; };
-		22AEABB420C240EE00F21EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22AEABC120C2491700F21EEE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		449633F29D304EC9070D8505 /* libPods-VaccineUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VaccineUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		527D8EBDEDC547F4985E95E4 /* Pods-VaccineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaccineUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VaccineUITests/Pods-VaccineUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		758857382C08AA88D348B58A /* Pods-Vaccine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vaccine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vaccine/Pods-Vaccine.release.xcconfig"; sourceTree = "<group>"; };
-		93BD61AFAFFE5D6C395437DF /* Pods-VaccineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaccineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VaccineTests/Pods-VaccineTests.debug.xcconfig"; sourceTree = "<group>"; };
-		98C4F5A7671D0471609E6F15 /* Pods-Vaccine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vaccine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vaccine/Pods-Vaccine.debug.xcconfig"; sourceTree = "<group>"; };
-		9C78A2B6D9E591991A36F017 /* Pods-VaccineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaccineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaccineTests/Pods-VaccineTests.release.xcconfig"; sourceTree = "<group>"; };
-		B041D4FD07310CAD6AE46AD7 /* libPods-Vaccine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vaccine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB848B439A8E218961E2C262 /* Pods-VaccineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaccineUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaccineUITests/Pods-VaccineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B6E1B10212155380056473B /* Vaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6E1B13212155380056473B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B6E1B14212155380056473B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B6E1B16212155380056473B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B6E1B17212155380056473B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B6E1B1A212155380056473B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B6E1B1C212155390056473B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B6E1B1F212155390056473B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B6E1B21212155390056473B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6E1B22212155390056473B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B6E1B28212155390056473B /* VaccineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6E1B2C212155390056473B /* VaccineTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaccineTests.m; sourceTree = "<group>"; };
+		1B6E1B2E212155390056473B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6E1B33212155390056473B /* VaccineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6E1B37212155390056473B /* VaccineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaccineUITests.m; sourceTree = "<group>"; };
+		1B6E1B39212155390056473B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22AEAB8820C240EC00F21EEE /* Frameworks */ = {
+		1B6E1B0D212155380056473B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45747BC8B3925C522701013 /* libPods-Vaccine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22AEABA020C240EE00F21EEE /* Frameworks */ = {
+		1B6E1B25212155390056473B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9D0CC9EC66E78578FCE6E91 /* libPods-VaccineTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22AEABAB20C240EE00F21EEE /* Frameworks */ = {
+		1B6E1B30212155390056473B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE47EA80564AB1ACB68E330A /* libPods-VaccineUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		229E146020C24A3D00BF70EB /* Controller */ = {
+		1B6E1B07212155380056473B = {
 			isa = PBXGroup;
 			children = (
-				229E146120C24A5A00BF70EB /* LoginViewController.h */,
-				229E146220C24A5A00BF70EB /* LoginViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		229E146720C254CE00BF70EB /* API */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		22AEAB8220C240EC00F21EEE = {
-			isa = PBXGroup;
-			children = (
-				22AEAB8D20C240EC00F21EEE /* Vaccine */,
-				22AEABA620C240EE00F21EEE /* VaccineTests */,
-				22AEABB120C240EE00F21EEE /* VaccineUITests */,
-				22AEAB8C20C240EC00F21EEE /* Products */,
-				80518DE4A13B0B4D16BDC34E /* Pods */,
-				B465D14887E4C26D27E9B2B6 /* Frameworks */,
+				1B6E1B12212155380056473B /* Vaccine */,
+				1B6E1B2B212155390056473B /* VaccineTests */,
+				1B6E1B36212155390056473B /* VaccineUITests */,
+				1B6E1B11212155380056473B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		22AEAB8C20C240EC00F21EEE /* Products */ = {
+		1B6E1B11212155380056473B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22AEAB8B20C240EC00F21EEE /* Vaccine.app */,
-				22AEABA320C240EE00F21EEE /* VaccineTests.xctest */,
-				22AEABAE20C240EE00F21EEE /* VaccineUITests.xctest */,
+				1B6E1B10212155380056473B /* Vaccine.app */,
+				1B6E1B28212155390056473B /* VaccineTests.xctest */,
+				1B6E1B33212155390056473B /* VaccineUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22AEAB8D20C240EC00F21EEE /* Vaccine */ = {
+		1B6E1B12212155380056473B /* Vaccine */ = {
 			isa = PBXGroup;
 			children = (
-				22AEAB8E20C240EC00F21EEE /* AppDelegate.h */,
-				22AEAB8F20C240EC00F21EEE /* AppDelegate.m */,
-				229E146720C254CE00BF70EB /* API */,
-				22AEABC020C241DD00F21EEE /* Model */,
-				229E146020C24A3D00BF70EB /* Controller */,
-				22AEAB9420C240EC00F21EEE /* Main.storyboard */,
-				22AEAB9720C240ED00F21EEE /* Assets.xcassets */,
-				22AEAB9920C240ED00F21EEE /* LaunchScreen.storyboard */,
-				22AEAB9C20C240ED00F21EEE /* Info.plist */,
-				22AEAB9D20C240ED00F21EEE /* main.m */,
-				22AEABC120C2491700F21EEE /* GoogleService-Info.plist */,
+				1B6E1B13212155380056473B /* AppDelegate.h */,
+				1B6E1B14212155380056473B /* AppDelegate.m */,
+				1B6E1B16212155380056473B /* ViewController.h */,
+				1B6E1B17212155380056473B /* ViewController.m */,
+				1B6E1B19212155380056473B /* Main.storyboard */,
+				1B6E1B1C212155390056473B /* Assets.xcassets */,
+				1B6E1B1E212155390056473B /* LaunchScreen.storyboard */,
+				1B6E1B21212155390056473B /* Info.plist */,
+				1B6E1B22212155390056473B /* main.m */,
 			);
 			path = Vaccine;
 			sourceTree = "<group>";
 		};
-		22AEABA620C240EE00F21EEE /* VaccineTests */ = {
+		1B6E1B2B212155390056473B /* VaccineTests */ = {
 			isa = PBXGroup;
 			children = (
-				22AEABA720C240EE00F21EEE /* VaccineTests.m */,
-				22AEABA920C240EE00F21EEE /* Info.plist */,
+				1B6E1B2C212155390056473B /* VaccineTests.m */,
+				1B6E1B2E212155390056473B /* Info.plist */,
 			);
 			path = VaccineTests;
 			sourceTree = "<group>";
 		};
-		22AEABB120C240EE00F21EEE /* VaccineUITests */ = {
+		1B6E1B36212155390056473B /* VaccineUITests */ = {
 			isa = PBXGroup;
 			children = (
-				22AEABB220C240EE00F21EEE /* VaccineUITests.m */,
-				22AEABB420C240EE00F21EEE /* Info.plist */,
+				1B6E1B37212155390056473B /* VaccineUITests.m */,
+				1B6E1B39212155390056473B /* Info.plist */,
 			);
 			path = VaccineUITests;
-			sourceTree = "<group>";
-		};
-		22AEABC020C241DD00F21EEE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				229E146420C24B3C00BF70EB /* User.h */,
-				229E146520C24B3C00BF70EB /* User.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		80518DE4A13B0B4D16BDC34E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				98C4F5A7671D0471609E6F15 /* Pods-Vaccine.debug.xcconfig */,
-				758857382C08AA88D348B58A /* Pods-Vaccine.release.xcconfig */,
-				93BD61AFAFFE5D6C395437DF /* Pods-VaccineTests.debug.xcconfig */,
-				9C78A2B6D9E591991A36F017 /* Pods-VaccineTests.release.xcconfig */,
-				527D8EBDEDC547F4985E95E4 /* Pods-VaccineUITests.debug.xcconfig */,
-				EB848B439A8E218961E2C262 /* Pods-VaccineUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		B465D14887E4C26D27E9B2B6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B041D4FD07310CAD6AE46AD7 /* libPods-Vaccine.a */,
-				1D913992E1FA9F4E8A57F562 /* libPods-VaccineTests.a */,
-				449633F29D304EC9070D8505 /* libPods-VaccineUITests.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22AEAB8A20C240EC00F21EEE /* Vaccine */ = {
+		1B6E1B0F212155380056473B /* Vaccine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22AEABB720C240EE00F21EEE /* Build configuration list for PBXNativeTarget "Vaccine" */;
+			buildConfigurationList = 1B6E1B3C212155390056473B /* Build configuration list for PBXNativeTarget "Vaccine" */;
 			buildPhases = (
-				28D50F6053DEAC978E630591 /* [CP] Check Pods Manifest.lock */,
-				22AEAB8720C240EC00F21EEE /* Sources */,
-				22AEAB8820C240EC00F21EEE /* Frameworks */,
-				22AEAB8920C240EC00F21EEE /* Resources */,
-				8972CFCB6BB4796136706142 /* [CP] Embed Pods Frameworks */,
-				9AF9FB306699B1BC85A366DE /* [CP] Copy Pods Resources */,
+				1B6E1B0C212155380056473B /* Sources */,
+				1B6E1B0D212155380056473B /* Frameworks */,
+				1B6E1B0E212155380056473B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -224,74 +149,68 @@
 			);
 			name = Vaccine;
 			productName = Vaccine;
-			productReference = 22AEAB8B20C240EC00F21EEE /* Vaccine.app */;
+			productReference = 1B6E1B10212155380056473B /* Vaccine.app */;
 			productType = "com.apple.product-type.application";
 		};
-		22AEABA220C240EE00F21EEE /* VaccineTests */ = {
+		1B6E1B27212155390056473B /* VaccineTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22AEABBA20C240EE00F21EEE /* Build configuration list for PBXNativeTarget "VaccineTests" */;
+			buildConfigurationList = 1B6E1B3F212155390056473B /* Build configuration list for PBXNativeTarget "VaccineTests" */;
 			buildPhases = (
-				6A5E2966C431030DF5E3408F /* [CP] Check Pods Manifest.lock */,
-				22AEAB9F20C240EE00F21EEE /* Sources */,
-				22AEABA020C240EE00F21EEE /* Frameworks */,
-				22AEABA120C240EE00F21EEE /* Resources */,
-				870A16DEB29CD79A7A147188 /* [CP] Embed Pods Frameworks */,
-				FDCB0A5ABAF9BEE58219677A /* [CP] Copy Pods Resources */,
+				1B6E1B24212155390056473B /* Sources */,
+				1B6E1B25212155390056473B /* Frameworks */,
+				1B6E1B26212155390056473B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				22AEABA520C240EE00F21EEE /* PBXTargetDependency */,
+				1B6E1B2A212155390056473B /* PBXTargetDependency */,
 			);
 			name = VaccineTests;
 			productName = VaccineTests;
-			productReference = 22AEABA320C240EE00F21EEE /* VaccineTests.xctest */;
+			productReference = 1B6E1B28212155390056473B /* VaccineTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		22AEABAD20C240EE00F21EEE /* VaccineUITests */ = {
+		1B6E1B32212155390056473B /* VaccineUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22AEABBD20C240EE00F21EEE /* Build configuration list for PBXNativeTarget "VaccineUITests" */;
+			buildConfigurationList = 1B6E1B42212155390056473B /* Build configuration list for PBXNativeTarget "VaccineUITests" */;
 			buildPhases = (
-				A92DC3D93369BFA862D9DD7A /* [CP] Check Pods Manifest.lock */,
-				22AEABAA20C240EE00F21EEE /* Sources */,
-				22AEABAB20C240EE00F21EEE /* Frameworks */,
-				22AEABAC20C240EE00F21EEE /* Resources */,
-				A5BBDCA1C3C16CD8FC906675 /* [CP] Embed Pods Frameworks */,
-				2711697E5F68CEE33D14BC31 /* [CP] Copy Pods Resources */,
+				1B6E1B2F212155390056473B /* Sources */,
+				1B6E1B30212155390056473B /* Frameworks */,
+				1B6E1B31212155390056473B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				22AEABB020C240EE00F21EEE /* PBXTargetDependency */,
+				1B6E1B35212155390056473B /* PBXTargetDependency */,
 			);
 			name = VaccineUITests;
 			productName = VaccineUITests;
-			productReference = 22AEABAE20C240EE00F21EEE /* VaccineUITests.xctest */;
+			productReference = 1B6E1B33212155390056473B /* VaccineUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		22AEAB8320C240EC00F21EEE /* Project object */ = {
+		1B6E1B08212155380056473B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Admire;
 				TargetAttributes = {
-					22AEAB8A20C240EC00F21EEE = {
-						CreatedOnToolsVersion = 9.4;
+					1B6E1B0F212155380056473B = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
-					22AEABA220C240EE00F21EEE = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = 22AEAB8A20C240EC00F21EEE;
+					1B6E1B27212155390056473B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1B6E1B0F212155380056473B;
 					};
-					22AEABAD20C240EE00F21EEE = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = 22AEAB8A20C240EC00F21EEE;
+					1B6E1B32212155390056473B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 1B6E1B0F212155380056473B;
 					};
 				};
 			};
-			buildConfigurationList = 22AEAB8620C240EC00F21EEE /* Build configuration list for PBXProject "Vaccine" */;
+			buildConfigurationList = 1B6E1B0B212155380056473B /* Build configuration list for PBXProject "Vaccine" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -299,38 +218,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 22AEAB8220C240EC00F21EEE;
-			productRefGroup = 22AEAB8C20C240EC00F21EEE /* Products */;
+			mainGroup = 1B6E1B07212155380056473B;
+			productRefGroup = 1B6E1B11212155380056473B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22AEAB8A20C240EC00F21EEE /* Vaccine */,
-				22AEABA220C240EE00F21EEE /* VaccineTests */,
-				22AEABAD20C240EE00F21EEE /* VaccineUITests */,
+				1B6E1B0F212155380056473B /* Vaccine */,
+				1B6E1B27212155390056473B /* VaccineTests */,
+				1B6E1B32212155390056473B /* VaccineUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		22AEAB8920C240EC00F21EEE /* Resources */ = {
+		1B6E1B0E212155380056473B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22AEAB9B20C240ED00F21EEE /* LaunchScreen.storyboard in Resources */,
-				22AEABC220C2491700F21EEE /* GoogleService-Info.plist in Resources */,
-				22AEAB9820C240ED00F21EEE /* Assets.xcassets in Resources */,
-				22AEAB9620C240EC00F21EEE /* Main.storyboard in Resources */,
+				1B6E1B20212155390056473B /* LaunchScreen.storyboard in Resources */,
+				1B6E1B1D212155390056473B /* Assets.xcassets in Resources */,
+				1B6E1B1B212155380056473B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22AEABA120C240EE00F21EEE /* Resources */ = {
+		1B6E1B26212155390056473B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22AEABAC20C240EE00F21EEE /* Resources */ = {
+		1B6E1B31212155390056473B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,209 +257,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		2711697E5F68CEE33D14BC31 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaccineUITests/Pods-VaccineUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		28D50F6053DEAC978E630591 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Vaccine-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		6A5E2966C431030DF5E3408F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VaccineTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		870A16DEB29CD79A7A147188 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaccineTests/Pods-VaccineTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8972CFCB6BB4796136706142 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vaccine/Pods-Vaccine-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9AF9FB306699B1BC85A366DE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vaccine/Pods-Vaccine-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A5BBDCA1C3C16CD8FC906675 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaccineUITests/Pods-VaccineUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A92DC3D93369BFA862D9DD7A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VaccineUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FDCB0A5ABAF9BEE58219677A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VaccineTests/Pods-VaccineTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		22AEAB8720C240EC00F21EEE /* Sources */ = {
+		1B6E1B0C212155380056473B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229E146620C24B3C00BF70EB /* User.m in Sources */,
-				22AEAB9E20C240ED00F21EEE /* main.m in Sources */,
-				22AEAB9020C240EC00F21EEE /* AppDelegate.m in Sources */,
-				229E146320C24A5A00BF70EB /* LoginViewController.m in Sources */,
+				1B6E1B18212155380056473B /* ViewController.m in Sources */,
+				1B6E1B23212155390056473B /* main.m in Sources */,
+				1B6E1B15212155380056473B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22AEAB9F20C240EE00F21EEE /* Sources */ = {
+		1B6E1B24212155390056473B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22AEABA820C240EE00F21EEE /* VaccineTests.m in Sources */,
+				1B6E1B2D212155390056473B /* VaccineTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22AEABAA20C240EE00F21EEE /* Sources */ = {
+		1B6E1B2F212155390056473B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22AEABB320C240EE00F21EEE /* VaccineUITests.m in Sources */,
+				1B6E1B38212155390056473B /* VaccineUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22AEABA520C240EE00F21EEE /* PBXTargetDependency */ = {
+		1B6E1B2A212155390056473B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22AEAB8A20C240EC00F21EEE /* Vaccine */;
-			targetProxy = 22AEABA420C240EE00F21EEE /* PBXContainerItemProxy */;
+			target = 1B6E1B0F212155380056473B /* Vaccine */;
+			targetProxy = 1B6E1B29212155390056473B /* PBXContainerItemProxy */;
 		};
-		22AEABB020C240EE00F21EEE /* PBXTargetDependency */ = {
+		1B6E1B35212155390056473B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 22AEAB8A20C240EC00F21EEE /* Vaccine */;
-			targetProxy = 22AEABAF20C240EE00F21EEE /* PBXContainerItemProxy */;
+			target = 1B6E1B0F212155380056473B /* Vaccine */;
+			targetProxy = 1B6E1B34212155390056473B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		22AEAB9420C240EC00F21EEE /* Main.storyboard */ = {
+		1B6E1B19212155380056473B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				22AEAB9520C240EC00F21EEE /* Base */,
+				1B6E1B1A212155380056473B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		22AEAB9920C240ED00F21EEE /* LaunchScreen.storyboard */ = {
+		1B6E1B1E212155390056473B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				22AEAB9A20C240ED00F21EEE /* Base */,
+				1B6E1B1F212155390056473B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -549,7 +319,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		22AEABB520C240EE00F21EEE /* Debug */ = {
+		1B6E1B3A212155390056473B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -607,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		22AEABB620C240EE00F21EEE /* Release */ = {
+		1B6E1B3B212155390056473B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -659,9 +429,8 @@
 			};
 			name = Release;
 		};
-		22AEABB820C240EE00F21EEE /* Debug */ = {
+		1B6E1B3D212155390056473B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C4F5A7671D0471609E6F15 /* Pods-Vaccine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -670,15 +439,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Admire.Vaccine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admire.Vaccine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		22AEABB920C240EE00F21EEE /* Release */ = {
+		1B6E1B3E212155390056473B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 758857382C08AA88D348B58A /* Pods-Vaccine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -687,15 +455,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Admire.Vaccine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admire.Vaccine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		22AEABBB20C240EE00F21EEE /* Debug */ = {
+		1B6E1B40212155390056473B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93BD61AFAFFE5D6C395437DF /* Pods-VaccineTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -705,16 +472,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Admire.VaccineTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admire.VaccineTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaccine.app/Vaccine";
 			};
 			name = Debug;
 		};
-		22AEABBC20C240EE00F21EEE /* Release */ = {
+		1B6E1B41212155390056473B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C78A2B6D9E591991A36F017 /* Pods-VaccineTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -724,16 +490,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Admire.VaccineTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admire.VaccineTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vaccine.app/Vaccine";
 			};
 			name = Release;
 		};
-		22AEABBE20C240EE00F21EEE /* Debug */ = {
+		1B6E1B43212155390056473B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 527D8EBDEDC547F4985E95E4 /* Pods-VaccineUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VaccineUITests/Info.plist;
@@ -742,16 +507,15 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Admire.VaccineUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admire.VaccineUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Vaccine;
 			};
 			name = Debug;
 		};
-		22AEABBF20C240EE00F21EEE /* Release */ = {
+		1B6E1B44212155390056473B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB848B439A8E218961E2C262 /* Pods-VaccineUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VaccineUITests/Info.plist;
@@ -760,7 +524,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = Admire.VaccineUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admire.VaccineUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Vaccine;
@@ -770,43 +534,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22AEAB8620C240EC00F21EEE /* Build configuration list for PBXProject "Vaccine" */ = {
+		1B6E1B0B212155380056473B /* Build configuration list for PBXProject "Vaccine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22AEABB520C240EE00F21EEE /* Debug */,
-				22AEABB620C240EE00F21EEE /* Release */,
+				1B6E1B3A212155390056473B /* Debug */,
+				1B6E1B3B212155390056473B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22AEABB720C240EE00F21EEE /* Build configuration list for PBXNativeTarget "Vaccine" */ = {
+		1B6E1B3C212155390056473B /* Build configuration list for PBXNativeTarget "Vaccine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22AEABB820C240EE00F21EEE /* Debug */,
-				22AEABB920C240EE00F21EEE /* Release */,
+				1B6E1B3D212155390056473B /* Debug */,
+				1B6E1B3E212155390056473B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22AEABBA20C240EE00F21EEE /* Build configuration list for PBXNativeTarget "VaccineTests" */ = {
+		1B6E1B3F212155390056473B /* Build configuration list for PBXNativeTarget "VaccineTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22AEABBB20C240EE00F21EEE /* Debug */,
-				22AEABBC20C240EE00F21EEE /* Release */,
+				1B6E1B40212155390056473B /* Debug */,
+				1B6E1B41212155390056473B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22AEABBD20C240EE00F21EEE /* Build configuration list for PBXNativeTarget "VaccineUITests" */ = {
+		1B6E1B42212155390056473B /* Build configuration list for PBXNativeTarget "VaccineUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				22AEABBE20C240EE00F21EEE /* Debug */,
-				22AEABBF20C240EE00F21EEE /* Release */,
+				1B6E1B43212155390056473B /* Debug */,
+				1B6E1B44212155390056473B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 22AEAB8320C240EC00F21EEE /* Project object */;
+	rootObject = 1B6E1B08212155380056473B /* Project object */;
 }
