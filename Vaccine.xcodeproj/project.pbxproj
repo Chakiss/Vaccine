@@ -15,6 +15,9 @@
 		1B6E1B23212155390056473B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B22212155390056473B /* main.m */; };
 		1B6E1B2D212155390056473B /* VaccineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B2C212155390056473B /* VaccineTests.m */; };
 		1B6E1B38212155390056473B /* VaccineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B37212155390056473B /* VaccineUITests.m */; };
+		2725E9B80F9DCA6087EDF11D /* libPods-VaccineUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6CF8F408B448B8E3D017E8 /* libPods-VaccineUITests.a */; };
+		3A01779D53A50F3EDA8DA3C0 /* libPods-Vaccine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9307021B1BEF4C363DA836 /* libPods-Vaccine.a */; };
+		3E9956CD0D6F1AF6A1A1852A /* libPods-VaccineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA17600DDC4567409E4EFD4 /* libPods-VaccineTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		1B6E1B33212155390056473B /* VaccineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6E1B37212155390056473B /* VaccineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaccineUITests.m; sourceTree = "<group>"; };
 		1B6E1B39212155390056473B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3C20D2B8CCB6E0D07CBCB9 /* Pods-VaccineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaccineUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaccineUITests/Pods-VaccineUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2B9307021B1BEF4C363DA836 /* libPods-Vaccine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vaccine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6808A30376A47CDB13464DCC /* Pods-Vaccine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vaccine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vaccine/Pods-Vaccine.release.xcconfig"; sourceTree = "<group>"; };
+		8340B22B62BC8DF1A3ED6CED /* Pods-VaccineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaccineTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaccineTests/Pods-VaccineTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EA17600DDC4567409E4EFD4 /* libPods-VaccineTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VaccineTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6CF8F408B448B8E3D017E8 /* libPods-VaccineUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VaccineUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21842F55743A0FB529B1230 /* Pods-VaccineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaccineTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VaccineTests/Pods-VaccineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3EB6CA0797B6A8CDC7393D0 /* Pods-VaccineUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaccineUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VaccineUITests/Pods-VaccineUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6A9A153D644A1725380622D /* Pods-Vaccine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vaccine.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vaccine/Pods-Vaccine.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A01779D53A50F3EDA8DA3C0 /* libPods-Vaccine.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E9956CD0D6F1AF6A1A1852A /* libPods-VaccineTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2725E9B80F9DCA6087EDF11D /* libPods-VaccineUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				1B6E1B2B212155390056473B /* VaccineTests */,
 				1B6E1B36212155390056473B /* VaccineUITests */,
 				1B6E1B11212155380056473B /* Products */,
+				F0DBEEC140BE60626B1403F1 /* Pods */,
+				D6F059B1F74FECD15AD62DAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,29 @@
 			path = VaccineUITests;
 			sourceTree = "<group>";
 		};
+		D6F059B1F74FECD15AD62DAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B9307021B1BEF4C363DA836 /* libPods-Vaccine.a */,
+				8EA17600DDC4567409E4EFD4 /* libPods-VaccineTests.a */,
+				BA6CF8F408B448B8E3D017E8 /* libPods-VaccineUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0DBEEC140BE60626B1403F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6A9A153D644A1725380622D /* Pods-Vaccine.debug.xcconfig */,
+				6808A30376A47CDB13464DCC /* Pods-Vaccine.release.xcconfig */,
+				D21842F55743A0FB529B1230 /* Pods-VaccineTests.debug.xcconfig */,
+				8340B22B62BC8DF1A3ED6CED /* Pods-VaccineTests.release.xcconfig */,
+				D3EB6CA0797B6A8CDC7393D0 /* Pods-VaccineUITests.debug.xcconfig */,
+				2A3C20D2B8CCB6E0D07CBCB9 /* Pods-VaccineUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +179,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B6E1B3C212155390056473B /* Build configuration list for PBXNativeTarget "Vaccine" */;
 			buildPhases = (
+				AA589CC7D4B7A6C5E9F54C29 /* [CP] Check Pods Manifest.lock */,
 				1B6E1B0C212155380056473B /* Sources */,
 				1B6E1B0D212155380056473B /* Frameworks */,
 				1B6E1B0E212155380056473B /* Resources */,
@@ -156,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B6E1B3F212155390056473B /* Build configuration list for PBXNativeTarget "VaccineTests" */;
 			buildPhases = (
+				04A65A27B8987498E616E872 /* [CP] Check Pods Manifest.lock */,
 				1B6E1B24212155390056473B /* Sources */,
 				1B6E1B25212155390056473B /* Frameworks */,
 				1B6E1B26212155390056473B /* Resources */,
@@ -174,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B6E1B42212155390056473B /* Build configuration list for PBXNativeTarget "VaccineUITests" */;
 			buildPhases = (
+				CB57BE7E5D8ED097305211BF /* [CP] Check Pods Manifest.lock */,
 				1B6E1B2F212155390056473B /* Sources */,
 				1B6E1B30212155390056473B /* Frameworks */,
 				1B6E1B31212155390056473B /* Resources */,
@@ -256,6 +299,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A65A27B8987498E616E872 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VaccineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA589CC7D4B7A6C5E9F54C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vaccine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB57BE7E5D8ED097305211BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VaccineUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B6E1B0C212155380056473B /* Sources */ = {
@@ -431,6 +531,7 @@
 		};
 		1B6E1B3D212155390056473B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6A9A153D644A1725380622D /* Pods-Vaccine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +548,7 @@
 		};
 		1B6E1B3E212155390056473B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6808A30376A47CDB13464DCC /* Pods-Vaccine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +565,7 @@
 		};
 		1B6E1B40212155390056473B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21842F55743A0FB529B1230 /* Pods-VaccineTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -481,6 +584,7 @@
 		};
 		1B6E1B41212155390056473B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8340B22B62BC8DF1A3ED6CED /* Pods-VaccineTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +603,7 @@
 		};
 		1B6E1B43212155390056473B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EB6CA0797B6A8CDC7393D0 /* Pods-VaccineUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VaccineUITests/Info.plist;
@@ -516,6 +621,7 @@
 		};
 		1B6E1B44212155390056473B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3C20D2B8CCB6E0D07CBCB9 /* Pods-VaccineUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = VaccineUITests/Info.plist;
