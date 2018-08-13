@@ -6,6 +6,17 @@ target 'Vaccine' do
   # use_frameworks!
 
   # Pods for Vaccine
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  
+  pod 'SVProgressHUD'
+  pod 'AFNetworking', '~> 3.0'
+  
+  pod 'Realm'
+  
+  
 
   target 'VaccineTests' do
     inherit! :search_paths

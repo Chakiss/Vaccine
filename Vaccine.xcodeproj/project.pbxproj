@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2C9FA4212158AD00472FA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */; };
 		1B6E1B15212155380056473B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B14212155380056473B /* AppDelegate.m */; };
 		1B6E1B18212155380056473B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B17212155380056473B /* ViewController.m */; };
 		1B6E1B1B212155380056473B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6E1B19212155380056473B /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1B6E1B10212155380056473B /* Vaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6E1B13212155380056473B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B6E1B14212155380056473B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +95,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2C9FA521215A5300472FA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B2C9FA621215A5B00472FA1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		1B6E1B07212155380056473B = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +136,8 @@
 			children = (
 				1B6E1B13212155380056473B /* AppDelegate.h */,
 				1B6E1B14212155380056473B /* AppDelegate.m */,
+				1B2C9FA521215A5300472FA1 /* Model */,
+				1B2C9FA621215A5B00472FA1 /* Controllers */,
 				1B6E1B16212155380056473B /* ViewController.h */,
 				1B6E1B17212155380056473B /* ViewController.m */,
 				1B6E1B19212155380056473B /* Main.storyboard */,
@@ -127,6 +145,7 @@
 				1B6E1B1E212155390056473B /* LaunchScreen.storyboard */,
 				1B6E1B21212155390056473B /* Info.plist */,
 				1B6E1B22212155390056473B /* main.m */,
+				1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */,
 			);
 			path = Vaccine;
 			sourceTree = "<group>";
@@ -183,6 +202,7 @@
 				1B6E1B0C212155380056473B /* Sources */,
 				1B6E1B0D212155380056473B /* Frameworks */,
 				1B6E1B0E212155380056473B /* Resources */,
+				285ED21565E245BD316E2F6A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -279,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B6E1B20212155390056473B /* LaunchScreen.storyboard in Resources */,
+				1B2C9FA4212158AD00472FA1 /* GoogleService-Info.plist in Resources */,
 				1B6E1B1D212155390056473B /* Assets.xcassets in Resources */,
 				1B6E1B1B212155380056473B /* Main.storyboard in Resources */,
 			);
@@ -317,6 +338,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		285ED21565E245BD316E2F6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vaccine/Pods-Vaccine-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vaccine/Pods-Vaccine-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA589CC7D4B7A6C5E9F54C29 /* [CP] Check Pods Manifest.lock */ = {
@@ -540,7 +581,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.admire.Vaccine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admire.vaccine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -557,7 +598,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.admire.Vaccine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admire.vaccine;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
