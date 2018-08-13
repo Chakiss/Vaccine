@@ -7,8 +7,15 @@
 //
 
 #import "LoginViewController.h"
+#import "UserManager.h"
+
+@import Firebase;
+#import <FirebaseFirestore.h>
 
 @interface LoginViewController ()
+
+
+@property (nonatomic, strong) FIRFirestore *defaultFirestore;
 
 @property (nonatomic, weak) IBOutlet UITextField *usernameTextField;
 @property (nonatomic, weak) IBOutlet UITextField *passwordTextField;
@@ -21,22 +28,63 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    self.defaultFirestore = [FIRFirestore firestore];
+    
+    [self addImage:[UIImage imageNamed:@"user_textfield"] toTextField:self.usernameTextField];
+    [self addImage:[UIImage imageNamed:@"password_textfield"] toTextField:self.passwordTextField];
+    
 }
+
+
+
+- (IBAction)loginButtonTapped:(id)sender {
+    [[UserManager sharedManager] loginWithUser:@"q@example.com" Password:@"q@example.com" completion:^(id response, BOOL status) {
+        if (status) {
+            
+            FIRDocumentReference *docRef =
+            [[self.defaultFirestore collectionWithPath:USER] documentWithPath:[FIRAuth auth].currentUser.uid];
+            [docRef getDocumentWithCompletion:^(FIRDocumentSnapshot *snapshotUser, NSError *error) {
+                if (snapshotUser.exists) {
+                    
+                    NSLog(@"snapshotUser = %@",snapshotUser);
+                    
+                } else {
+                    NSLog(@"Document does not exist");
+                
+                }
+            }];
+            
+            
+        } else {
+            
+        }
+        
+    }];
+    
+}
+
+
+
+
+- (void)addImage:(UIImage *)image toTextField:(UITextField *)textField {
+    
+    UIImageView *envelopeView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 5, 15, 17)];
+    envelopeView.image = image;
+    envelopeView.contentMode = UIViewContentModeScaleAspectFit;
+    UIView *tmpView =  [[UIView alloc] initWithFrame:CGRectMake(10, 5, 30, 30)];
+    [tmpView addSubview:envelopeView];
+    [textField.leftView setFrame:envelopeView.frame];
+    textField.leftView = tmpView;
+    textField.leftViewMode = UITextFieldViewModeAlways;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

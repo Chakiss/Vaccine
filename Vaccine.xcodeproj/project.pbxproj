@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1B2C9FA4212158AD00472FA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */; };
 		1B2C9FAA21215C4B00472FA1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C9FA921215C4B00472FA1 /* LoginViewController.m */; };
+		1B5C1AD121217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1B5C1AD021217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF */; };
+		1B5C1AD421217E480004474C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C1AD321217E480004474C /* User.m */; };
+		1B5C1AD8212180720004474C /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C1AD7212180720004474C /* UserManager.m */; };
 		1B6E1B15212155380056473B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B14212155380056473B /* AppDelegate.m */; };
 		1B6E1B1B212155380056473B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6E1B19212155380056473B /* Main.storyboard */; };
 		1B6E1B1D212155390056473B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6E1B1C212155390056473B /* Assets.xcassets */; };
@@ -42,6 +45,12 @@
 		1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1B2C9FA821215C4B00472FA1 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1B2C9FA921215C4B00472FA1 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1B5C1AD021217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ADOBEGOTHICSTD-BOLD.OTF"; sourceTree = "<group>"; };
+		1B5C1AD221217E480004474C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1B5C1AD321217E480004474C /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		1B5C1AD6212180720004474C /* UserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		1B5C1AD7212180720004474C /* UserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		1B5C1AD9212190990004474C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		1B6E1B10212155380056473B /* Vaccine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vaccine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6E1B13212155380056473B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B6E1B14212155380056473B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -98,6 +107,10 @@
 		1B2C9FA521215A5300472FA1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1B5C1AD221217E480004474C /* User.h */,
+				1B5C1AD321217E480004474C /* User.m */,
+				1B5C1AD6212180720004474C /* UserManager.h */,
+				1B5C1AD7212180720004474C /* UserManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -117,6 +130,23 @@
 				1B2C9FA921215C4B00472FA1 /* LoginViewController.m */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		1B5C1ACE21217A350004474C /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				1B5C1ACF21217A560004474C /* Fonts */,
+				1B5C1AD9212190990004474C /* PrefixHeader.pch */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		1B5C1ACF21217A560004474C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1B5C1AD021217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		1B6E1B07212155380056473B = {
@@ -154,6 +184,7 @@
 				1B6E1B21212155390056473B /* Info.plist */,
 				1B6E1B22212155390056473B /* main.m */,
 				1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */,
+				1B5C1ACE21217A350004474C /* Support files */,
 			);
 			path = Vaccine;
 			sourceTree = "<group>";
@@ -309,6 +340,7 @@
 				1B6E1B20212155390056473B /* LaunchScreen.storyboard in Resources */,
 				1B2C9FA4212158AD00472FA1 /* GoogleService-Info.plist in Resources */,
 				1B6E1B1D212155390056473B /* Assets.xcassets in Resources */,
+				1B5C1AD121217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF in Resources */,
 				1B6E1B1B212155380056473B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,7 +443,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B5C1AD421217E480004474C /* User.m in Sources */,
 				1B2C9FAA21215C4B00472FA1 /* LoginViewController.m in Sources */,
+				1B5C1AD8212180720004474C /* UserManager.m in Sources */,
 				1B6E1B23212155390056473B /* main.m in Sources */,
 				1B6E1B15212155380056473B /* AppDelegate.m in Sources */,
 			);
@@ -509,6 +543,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "Vaccine/Support Files/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -565,6 +600,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Vaccine/Support Files/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
