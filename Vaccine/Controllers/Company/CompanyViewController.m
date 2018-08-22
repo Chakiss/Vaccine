@@ -7,6 +7,8 @@
 //
 
 #import "CompanyViewController.h"
+#import "UserManager.h"
+
 
 @interface CompanyViewController ()
 
@@ -17,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [[UserManager sharedManager] removeUser];
 }
 
 - (void)didReceiveMemoryWarning {

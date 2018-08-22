@@ -8,7 +8,7 @@
 
 #import "LoginViewController.h"
 #import "UserManager.h"
-
+#import <SVProgressHUD/SVProgressHUD.h>
 @import Firebase;
 #import <FirebaseFirestore.h>
 
@@ -34,7 +34,7 @@
     [self addImage:[UIImage imageNamed:@"user_textfield"] toTextField:self.usernameTextField];
     [self addImage:[UIImage imageNamed:@"password_textfield"] toTextField:self.passwordTextField];
     
-  
+    
     
 }
 
@@ -55,8 +55,12 @@
 - (IBAction)loginButtonTapped:(id)sender {
     [self.view endEditing:YES];
     
-    [[UserManager sharedManager] loginWithUser:@"q@example.com" Password:@"q@example.com" completion:^(id response, BOOL status) {
+    [SVProgressHUD show];
+    [[UserManager sharedManager] loginWithUser:self.usernameTextField.text
+                                      Password:self.passwordTextField.text
+                                    completion:^(id response, BOOL status) {
 
+        
         if (status) {
             if ([response isKindOfClass:[User class]]) {
                 User *user = response;
@@ -75,11 +79,12 @@
             
             UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"" message:errorMessage preferredStyle:UIAlertControllerStyleAlert];
             UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
-                                                       handler:^(UIAlertAction * action) {}];
+                                                       handler:^(UIAlertAction * action) { }];
             [alert addAction:ok];
             [self presentViewController:alert animated:YES completion:nil];
             
         }
+        [SVProgressHUD dismiss];
         
     }];
     
