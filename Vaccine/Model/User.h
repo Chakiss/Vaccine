@@ -10,6 +10,7 @@
 
 @interface User : RLMObject
 
+@property NSString *documentID;
 @property NSString *firstName;
 @property NSString *lastname;
 @property NSString *gendor;
@@ -21,7 +22,8 @@
 @property NSString *dealer;
 @property NSDate *createDate;
 @property NSString *createBy;
-@property double *latitude;
-@property double *longitude;
+@property double latitude;
+@property double longitude;
+@property NSString *imagePath;
 
 @end

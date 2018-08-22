@@ -34,29 +34,48 @@
     [self addImage:[UIImage imageNamed:@"user_textfield"] toTextField:self.usernameTextField];
     [self addImage:[UIImage imageNamed:@"password_textfield"] toTextField:self.passwordTextField];
     
+  
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillShow:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillHide:) name:UIKeyboardWillHideNotification object:nil];
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:UIKeyboardWillHideNotification object:nil];
 }
 
 
-
 - (IBAction)loginButtonTapped:(id)sender {
+    [self.view endEditing:YES];
+    
     [[UserManager sharedManager] loginWithUser:@"q@example.com" Password:@"q@example.com" completion:^(id response, BOOL status) {
+
         if (status) {
-            
-            FIRDocumentReference *docRef =
-            [[self.defaultFirestore collectionWithPath:USER] documentWithPath:[FIRAuth auth].currentUser.uid];
-            [docRef getDocumentWithCompletion:^(FIRDocumentSnapshot *snapshotUser, NSError *error) {
-                if (snapshotUser.exists) {
-                    
-                    NSLog(@"snapshotUser = %@",snapshotUser);
-                    
-                } else {
-                    NSLog(@"Document does not exist");
-                
-                }
-            }];
-            
-            
+            if ([response isKindOfClass:[User class]]) {
+                User *user = response;
+                NSLog(@"User = %@",user.firstName);
+                User *test = [[UserManager sharedManager] currentUser];
+                NSLog(@"ชื่อ =  %@",test.firstName);
+            }
         } else {
+            NSString *errorMessage = @"เกิดข้อผิดพลาดกรุณาลองใหม่อีกครั้ง";
+            if ([response isKindOfClass:[NSError class]]) {
+                NSError *error = response;
+                errorMessage = error.localizedDescription;
+            }
+            
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"" message:errorMessage preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault
+                                                       handler:^(UIAlertAction * action) {}];
+            [alert addAction:ok];
+            [self presentViewController:alert animated:YES completion:nil];
             
         }
         
@@ -64,6 +83,28 @@
     
 }
 
+
+
+#pragma mark - keyboard movements
+- (void)keyboardWillShow:(NSNotification *)notification
+{
+    CGSize keyboardSize = [[[notification userInfo] objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
+    
+    [UIView animateWithDuration:0.3 animations:^{
+        CGRect f = self.view.frame;
+        f.origin.y = -keyboardSize.height;
+        self.view.frame = f;
+    }];
+}
+
+-(void)keyboardWillHide:(NSNotification *)notification
+{
+    [UIView animateWithDuration:0.3 animations:^{
+        CGRect f = self.view.frame;
+        f.origin.y = 0.0f;
+        self.view.frame = f;
+    }];
+}
 
 
 

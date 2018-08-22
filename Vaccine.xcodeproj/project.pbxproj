@@ -619,14 +619,18 @@
 			baseConfigurationReference = F6A9A153D644A1725380622D /* Pods-Vaccine.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K4TD3PMU32;
 				INFOPLIST_FILE = Vaccine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.admire.vaccine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admire.swineconnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "051a8c5f-2afb-46f5-b33d-05de23cff0db";
+				PROVISIONING_PROFILE_SPECIFIER = "Vaccine-AdHoc";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -636,14 +640,18 @@
 			baseConfigurationReference = 6808A30376A47CDB13464DCC /* Pods-Vaccine.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = K4TD3PMU32;
 				INFOPLIST_FILE = Vaccine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.admire.vaccine;
+				PRODUCT_BUNDLE_IDENTIFIER = com.admire.swineconnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "051a8c5f-2afb-46f5-b33d-05de23cff0db";
+				PROVISIONING_PROFILE_SPECIFIER = "Vaccine-AdHoc";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

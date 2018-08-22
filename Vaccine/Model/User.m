@@ -10,4 +10,8 @@
 
 @implementation User
 
++ (NSString *)primaryKey {
+    return @"documentID";
+}
+
 @end

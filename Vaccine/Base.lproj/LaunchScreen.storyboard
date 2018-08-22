@@ -19,12 +19,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashscreen" translatesAutoresizingMaskIntoConstraints="NO" id="R5M-7R-ent">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="R5M-7R-ent" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="SPe-cv-MhF"/>
+                            <constraint firstItem="R5M-7R-ent" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="SPe-cv-MhF"/>
                             <constraint firstItem="R5M-7R-ent" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dsR-2p-9Fw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R5M-7R-ent" secondAttribute="trailing" id="jWk-C8-stC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="R5M-7R-ent" secondAttribute="bottom" id="kfG-r1-OCo"/>
@@ -34,7 +34,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
     <resources>
