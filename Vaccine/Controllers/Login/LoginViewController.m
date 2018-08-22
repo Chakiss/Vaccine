@@ -63,6 +63,8 @@
                 NSLog(@"User = %@",user.firstName);
                 User *test = [[UserManager sharedManager] currentUser];
                 NSLog(@"ชื่อ =  %@",test.firstName);
+                UIViewController *loginViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CompanyViewController"];
+                [[UIApplication sharedApplication].keyWindow setRootViewController:loginViewController];
             }
         } else {
             NSString *errorMessage = @"เกิดข้อผิดพลาดกรุณาลองใหม่อีกครั้ง";

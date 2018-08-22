@@ -19,6 +19,7 @@
 		1B6E1B23212155390056473B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B22212155390056473B /* main.m */; };
 		1B6E1B2D212155390056473B /* VaccineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B2C212155390056473B /* VaccineTests.m */; };
 		1B6E1B38212155390056473B /* VaccineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B37212155390056473B /* VaccineUITests.m */; };
+		1BC9893E212DC7C2003D2EF6 /* CompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9893D212DC7C2003D2EF6 /* CompanyViewController.m */; };
 		2725E9B80F9DCA6087EDF11D /* libPods-VaccineUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6CF8F408B448B8E3D017E8 /* libPods-VaccineUITests.a */; };
 		3A01779D53A50F3EDA8DA3C0 /* libPods-Vaccine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9307021B1BEF4C363DA836 /* libPods-Vaccine.a */; };
 		3E9956CD0D6F1AF6A1A1852A /* libPods-VaccineTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA17600DDC4567409E4EFD4 /* libPods-VaccineTests.a */; };
@@ -65,6 +66,8 @@
 		1B6E1B33212155390056473B /* VaccineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6E1B37212155390056473B /* VaccineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaccineUITests.m; sourceTree = "<group>"; };
 		1B6E1B39212155390056473B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BC9893C212DC7C2003D2EF6 /* CompanyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyViewController.h; sourceTree = "<group>"; };
+		1BC9893D212DC7C2003D2EF6 /* CompanyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanyViewController.m; sourceTree = "<group>"; };
 		2A3C20D2B8CCB6E0D07CBCB9 /* Pods-VaccineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaccineUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaccineUITests/Pods-VaccineUITests.release.xcconfig"; sourceTree = "<group>"; };
 		2B9307021B1BEF4C363DA836 /* libPods-Vaccine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Vaccine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6808A30376A47CDB13464DCC /* Pods-Vaccine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vaccine.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vaccine/Pods-Vaccine.release.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				1B2C9FA721215C2C00472FA1 /* Login */,
+				1BC98938212DC77A003D2EF6 /* Company */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -205,6 +209,15 @@
 				1B6E1B39212155390056473B /* Info.plist */,
 			);
 			path = VaccineUITests;
+			sourceTree = "<group>";
+		};
+		1BC98938212DC77A003D2EF6 /* Company */ = {
+			isa = PBXGroup;
+			children = (
+				1BC9893C212DC7C2003D2EF6 /* CompanyViewController.h */,
+				1BC9893D212DC7C2003D2EF6 /* CompanyViewController.m */,
+			);
+			path = Company;
 			sourceTree = "<group>";
 		};
 		D6F059B1F74FECD15AD62DAA /* Frameworks */ = {
@@ -443,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC9893E212DC7C2003D2EF6 /* CompanyViewController.m in Sources */,
 				1B5C1AD421217E480004474C /* User.m in Sources */,
 				1B2C9FAA21215C4B00472FA1 /* LoginViewController.m in Sources */,
 				1B5C1AD8212180720004474C /* UserManager.m in Sources */,

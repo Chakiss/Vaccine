@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 #import <Realm/Realm.h>
+#import "LoginViewController.h"
+#import "UserManager.h"
+
 
 @import Firebase;
 
@@ -20,9 +23,44 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [FIRApp configure];
     
+    [self setAppearance];
+    [self setThirdParty];
+    
+    if ([[UserManager sharedManager] currentUser]) {
+        
+        UIViewController *loginViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CompanyViewController"];
+        self.window.rootViewController = loginViewController;
+        
+    } else {
+        
+        LoginViewController *loginViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"LoginViewController"];
+        self.window.rootViewController = loginViewController;
+        
+    }
+    
+    
+    return YES;
+}
+
+- (void)setAppearance {
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
+    
+    [[UIToolbar appearance] setBackgroundImage:[UIImage new]
+                  forToolbarPosition:UIToolbarPositionAny
+                          barMetrics:UIBarMetricsDefault];
+    
+    [[UIToolbar appearance] setBackgroundColor:[UIColor clearColor]];
+    //[[UIToolbar appearance].layer setBorderWidth:0.0];
+    //[[UIToolbar appearance].layer setBorderColor:[UIColor clearColor].CGColor];
+    //[UIToolbar appearance].clipsToBounds = YES;
+}
+
+- (void)setThirdParty {
+    
+    [FIRApp configure];
+
     
     RLMRealmConfiguration *config = [RLMRealmConfiguration defaultConfiguration];
     // Set the new schema version. This must be greater than the previously used
@@ -46,9 +84,7 @@
     // Now that we've told Realm how to handle the schema change, opening the file
     // will automatically perform the migration
     [RLMRealm defaultRealm];
-
     
-    return YES;
 }
 
 
