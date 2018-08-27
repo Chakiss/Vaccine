@@ -8,9 +8,12 @@
 
 #import "CompanyViewController.h"
 #import "UserManager.h"
-
+#import "CustomToolBar.h"
 
 @interface CompanyViewController ()
+
+
+@property (nonatomic, weak) IBOutlet CustomToolBar *customToolBar;
 
 @end
 
@@ -19,7 +22,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [[UserManager sharedManager] removeUser];
+    
+
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+    
+    [self.customToolBar setDarkBlueButton];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2A9A9A213453DC001592FF /* CustomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A9A99213453DC001592FF /* CustomToolBar.m */; };
 		1B2C9FA4212158AD00472FA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */; };
 		1B2C9FAA21215C4B00472FA1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C9FA921215C4B00472FA1 /* LoginViewController.m */; };
 		1B5C1AD121217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1B5C1AD021217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B2A9A98213453DC001592FF /* CustomToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomToolBar.h; sourceTree = "<group>"; };
+		1B2A9A99213453DC001592FF /* CustomToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomToolBar.m; sourceTree = "<group>"; };
 		1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1B2C9FA821215C4B00472FA1 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1B2C9FA921215C4B00472FA1 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -107,6 +110,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2A9A97213452D5001592FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1B2A9A98213453DC001592FF /* CustomToolBar.h */,
+				1B2A9A99213453DC001592FF /* CustomToolBar.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1B2C9FA521215A5300472FA1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +194,7 @@
 				1B6E1B14212155380056473B /* AppDelegate.m */,
 				1B2C9FA521215A5300472FA1 /* Model */,
 				1B2C9FA621215A5B00472FA1 /* Controllers */,
+				1B2A9A97213452D5001592FF /* Views */,
 				1B6E1B19212155380056473B /* Main.storyboard */,
 				1B6E1B1C212155390056473B /* Assets.xcassets */,
 				1B6E1B1E212155390056473B /* LaunchScreen.storyboard */,
@@ -460,6 +473,7 @@
 				1B5C1AD421217E480004474C /* User.m in Sources */,
 				1B2C9FAA21215C4B00472FA1 /* LoginViewController.m in Sources */,
 				1B5C1AD8212180720004474C /* UserManager.m in Sources */,
+				1B2A9A9A213453DC001592FF /* CustomToolBar.m in Sources */,
 				1B6E1B23212155390056473B /* main.m in Sources */,
 				1B6E1B15212155380056473B /* AppDelegate.m in Sources */,
 			);

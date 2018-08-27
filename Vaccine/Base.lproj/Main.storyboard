@@ -153,7 +153,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar_background" translatesAutoresizingMaskIntoConstraints="NO" id="ugX-dX-TV8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
                             </imageView>
-                            <toolbar opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0f-SC-13h">
+                            <toolbar opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0f-SC-13h" customClass="CustomToolBar">
                                 <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
@@ -211,6 +211,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="f3p-OS-H8D"/>
                     </view>
+                    <connections>
+                        <outlet property="customToolBar" destination="i0f-SC-13h" id="9Nu-az-mDZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QUq-4T-HZ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
