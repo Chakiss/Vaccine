@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -21,6 +18,10 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZRM-ig-eaw"/>
+                        <viewControllerLayoutGuide type="bottom" id="3qk-3F-ecB"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,16 +30,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_icon" translatesAutoresizingMaskIntoConstraints="NO" id="3OG-PT-gin">
-                                <rect key="frame" x="112.66666666666667" y="104.99999999999999" width="150.33333333333331" height="150.66666666666663"/>
+                                <rect key="frame" x="112.66666666666669" y="105.33333333333331" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="3OG-PT-gin" secondAttribute="height" multiplier="1:1" id="6UO-xU-lEs"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CxT-mF-GUS">
-                                <rect key="frame" x="55" y="437.33333333333326" width="265" height="316.66666666666674"/>
+                                <rect key="frame" x="54.666666666666657" y="437.66666666666674" width="265.66666666666674" height="316.33333333333326"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hfS-Iy-NDg">
-                                        <rect key="frame" x="8" y="48" width="249" height="30"/>
+                                        <rect key="frame" x="7.9999999999999858" y="48" width="249.66666666666663" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -47,7 +48,7 @@
                                         </connections>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="a5a-UJ-iDl">
-                                        <rect key="frame" x="8" y="90.000000000000057" width="249" height="30"/>
+                                        <rect key="frame" x="7.9999999999999858" y="89.999999999999943" width="249.66666666666663" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" name="AdobeGothicStd-Bold" family="Adobe Gothic Std" pointSize="15"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
@@ -56,7 +57,7 @@
                                         </connections>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vyd-Zu-9Y9">
-                                        <rect key="frame" x="8" y="136.00000000000006" width="249" height="40"/>
+                                        <rect key="frame" x="7.9999999999999858" y="135.99999999999994" width="249.66666666666663" height="40"/>
                                         <color key="backgroundColor" red="0.27058823529411763" green="0.6470588235294118" blue="0.74901960784313726" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="eRl-ye-kZN"/>
@@ -95,13 +96,13 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_user" translatesAutoresizingMaskIntoConstraints="NO" id="sE9-eX-48a">
-                                <rect key="frame" x="112" y="326" width="150" height="150"/>
+                                <rect key="frame" x="112.66666666666669" y="326" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="sE9-eX-48a" secondAttribute="height" multiplier="1:1" id="m1I-Dv-Pkf"/>
                                 </constraints>
                             </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MiJ-zL-7Ff">
-                                <rect key="frame" x="227" y="629.33333333333337" width="85" height="9"/>
+                                <rect key="frame" x="227.33333333333337" y="629.66666666666663" width="85" height="9"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="9" id="mxJ-qv-zt3"/>
                                 </constraints>
@@ -113,24 +114,23 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2jN-zZ-9rn" secondAttribute="bottom" constant="-34" id="1ok-2Y-hvb"/>
+                            <constraint firstItem="3qk-3F-ecB" firstAttribute="top" secondItem="2jN-zZ-9rn" secondAttribute="bottom" constant="-34" id="1ok-2Y-hvb"/>
                             <constraint firstItem="MiJ-zL-7Ff" firstAttribute="trailing" secondItem="Vyd-Zu-9Y9" secondAttribute="trailing" id="3hh-Rp-gMd"/>
                             <constraint firstItem="3OG-PT-gin" firstAttribute="centerX" secondItem="2jN-zZ-9rn" secondAttribute="centerX" id="Dz4-lx-Lqz"/>
                             <constraint firstItem="CxT-mF-GUS" firstAttribute="centerX" secondItem="2jN-zZ-9rn" secondAttribute="centerX" id="Ji6-Ys-PHD"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2jN-zZ-9rn" secondAttribute="trailing" id="Kei-qP-6OH"/>
-                            <constraint firstItem="2jN-zZ-9rn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OPL-bF-chy"/>
+                            <constraint firstAttribute="trailing" secondItem="2jN-zZ-9rn" secondAttribute="trailing" id="Kei-qP-6OH"/>
+                            <constraint firstItem="2jN-zZ-9rn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OPL-bF-chy"/>
                             <constraint firstItem="sE9-eX-48a" firstAttribute="width" secondItem="2jN-zZ-9rn" secondAttribute="width" multiplier="0.4" id="SZt-04-lHy"/>
-                            <constraint firstItem="2jN-zZ-9rn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="aw0-XA-aec"/>
+                            <constraint firstItem="2jN-zZ-9rn" firstAttribute="top" secondItem="ZRM-ig-eaw" secondAttribute="bottom" constant="-44" id="aw0-XA-aec"/>
                             <constraint firstItem="sE9-eX-48a" firstAttribute="centerY" secondItem="2jN-zZ-9rn" secondAttribute="centerY" constant="-5" id="dFX-Yp-feY"/>
                             <constraint firstItem="3OG-PT-gin" firstAttribute="centerY" secondItem="2jN-zZ-9rn" secondAttribute="centerY" multiplier="0.45" constant="-2.3666666666667027" id="gfX-Ti-0lj"/>
                             <constraint firstItem="CxT-mF-GUS" firstAttribute="top" secondItem="sE9-eX-48a" secondAttribute="bottom" constant="-38.333333333333314" id="iab-Wd-ZhM"/>
                             <constraint firstItem="MiJ-zL-7Ff" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="jbv-UM-MkY"/>
                             <constraint firstItem="MiJ-zL-7Ff" firstAttribute="top" secondItem="Vyd-Zu-9Y9" secondAttribute="bottom" constant="16" id="pAP-za-U6f"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CxT-mF-GUS" secondAttribute="bottom" constant="24" id="rbI-va-wGQ"/>
+                            <constraint firstItem="3qk-3F-ecB" firstAttribute="top" secondItem="CxT-mF-GUS" secondAttribute="bottom" constant="24" id="rbI-va-wGQ"/>
                             <constraint firstItem="sE9-eX-48a" firstAttribute="centerX" secondItem="2jN-zZ-9rn" secondAttribute="centerX" id="w0O-VE-7MO"/>
                             <constraint firstItem="3OG-PT-gin" firstAttribute="width" secondItem="2jN-zZ-9rn" secondAttribute="width" multiplier="0.4" id="zRV-Ap-YOU"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="loginButton" destination="Vyd-Zu-9Y9" id="K81-fc-FRq"/>
@@ -146,44 +146,69 @@
         <scene sceneID="mvM-EE-sBn">
             <objects>
                 <viewController storyboardIdentifier="CompanyViewController" id="UQB-hl-AcZ" customClass="CompanyViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uVR-NI-Rcb"/>
+                        <viewControllerLayoutGuide type="bottom" id="3gc-An-3WS"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wXk-cC-hB1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar_background" translatesAutoresizingMaskIntoConstraints="NO" id="ugX-dX-TV8">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="88"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="company_tmp" translatesAutoresizingMaskIntoConstraints="NO" id="ugX-dX-TV8">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <toolbar opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i0f-SC-13h" customClass="CustomToolBar">
                                 <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
                                     <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="vkf-x3-UOx"/>
-                                    <barButtonItem title="Company" image="company_icon" id="82c-3L-dAw">
+                                    <barButtonItem tag="1" title="Company" image="company_icon" id="82c-3L-dAw">
                                         <color key="tintColor" red="0.14509803921568626" green="0.22745098039215686" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="UQB-hl-AcZ" id="9qR-ij-1R6"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="dF6-x1-Yp9"/>
-                                    <barButtonItem title="Proifile" image="profile_icon" width="40" id="Q6J-7D-s9e">
+                                    <barButtonItem tag="2" title="Profile" image="profile_icon" width="40" id="Q6J-7D-s9e">
                                         <color key="tintColor" red="0.14509803921568626" green="0.22745098039215686" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="UQB-hl-AcZ" id="olH-PS-SLx"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="G6S-nH-mid"/>
-                                    <barButtonItem title="Product" image="order_icon" width="40" id="8m1-UW-1qJ">
+                                    <barButtonItem tag="3" title="Product" image="order_icon" width="40" id="8m1-UW-1qJ">
                                         <color key="tintColor" red="0.14509803921568626" green="0.22745098039215686" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="UQB-hl-AcZ" id="lxp-8k-5d2"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="EPD-qf-zJd"/>
-                                    <barButtonItem title="reward" image="reward_icon" width="40" id="chr-P5-g9b">
+                                    <barButtonItem tag="4" title="reward" image="reward_icon" width="40" id="chr-P5-g9b">
                                         <color key="tintColor" red="0.14509803921568626" green="0.22745098039215686" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="UQB-hl-AcZ" id="X6x-9u-GLn"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="hYh-VV-cK7"/>
-                                    <barButtonItem title="Vaccine" image="vaccine_icon" width="40" id="3kg-Ve-6vT">
+                                    <barButtonItem tag="5" title="Vaccine" image="vaccine_icon" width="40" id="3kg-Ve-6vT">
                                         <color key="tintColor" red="0.14509803921568626" green="0.22745098039215686" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="UQB-hl-AcZ" id="ETT-qD-Tda"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="GsZ-wd-YBG"/>
-                                    <barButtonItem title="Annoucement" image="annouce_icon" width="40" id="fA6-hz-aOc">
+                                    <barButtonItem tag="6" title="Annoucement" image="annouce_icon" width="40" id="fA6-hz-aOc">
                                         <color key="tintColor" red="0.14509803921568626" green="0.22745098039215686" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="UQB-hl-AcZ" id="VNM-ij-7Mc"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="D0L-nZ-FgX"/>
-                                    <barButtonItem title="Survey" image="survey_icon" width="40" style="plain" id="h1h-Ue-145">
+                                    <barButtonItem tag="7" title="Survey" image="survey_icon" width="40" style="plain" id="h1h-Ue-145">
                                         <color key="tintColor" red="0.14509803921568626" green="0.22745098039215686" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="UQB-hl-AcZ" id="2Vp-PE-Ngc"/>
+                                        </connections>
                                     </barButtonItem>
                                     <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="UfP-8d-UD2"/>
                                 </items>
@@ -198,18 +223,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ugX-dX-TV8" firstAttribute="trailing" secondItem="f3p-OS-H8D" secondAttribute="trailing" id="5FQ-FU-wBw"/>
-                            <constraint firstItem="Ped-TT-LCE" firstAttribute="leading" secondItem="f3p-OS-H8D" secondAttribute="leading" id="6QJ-rV-Y3g"/>
-                            <constraint firstItem="Ped-TT-LCE" firstAttribute="trailing" secondItem="f3p-OS-H8D" secondAttribute="trailing" id="BWA-sq-FD9"/>
-                            <constraint firstItem="i0f-SC-13h" firstAttribute="top" secondItem="f3p-OS-H8D" secondAttribute="top" id="Qsc-Uo-Nsu"/>
+                            <constraint firstItem="Ped-TT-LCE" firstAttribute="leading" secondItem="wXk-cC-hB1" secondAttribute="leading" id="6QJ-rV-Y3g"/>
+                            <constraint firstItem="Ped-TT-LCE" firstAttribute="trailing" secondItem="wXk-cC-hB1" secondAttribute="trailing" id="BWA-sq-FD9"/>
+                            <constraint firstAttribute="bottom" secondItem="ugX-dX-TV8" secondAttribute="bottom" id="G7b-9S-K4T"/>
+                            <constraint firstItem="ugX-dX-TV8" firstAttribute="leading" secondItem="wXk-cC-hB1" secondAttribute="leading" id="JXW-9R-OdL"/>
+                            <constraint firstItem="i0f-SC-13h" firstAttribute="top" secondItem="uVR-NI-Rcb" secondAttribute="bottom" id="Qsc-Uo-Nsu"/>
                             <constraint firstItem="Ped-TT-LCE" firstAttribute="top" secondItem="i0f-SC-13h" secondAttribute="bottom" id="SK2-aP-kpz"/>
-                            <constraint firstItem="ugX-dX-TV8" firstAttribute="leading" secondItem="f3p-OS-H8D" secondAttribute="leading" id="TE9-mM-8V5"/>
-                            <constraint firstItem="ugX-dX-TV8" firstAttribute="top" secondItem="wXk-cC-hB1" secondAttribute="top" id="aAk-Z4-Rz9"/>
-                            <constraint firstItem="i0f-SC-13h" firstAttribute="leading" secondItem="f3p-OS-H8D" secondAttribute="leading" id="pQJ-g0-FjD"/>
-                            <constraint firstItem="i0f-SC-13h" firstAttribute="trailing" secondItem="f3p-OS-H8D" secondAttribute="trailing" id="s51-sz-Pk7"/>
-                            <constraint firstItem="ugX-dX-TV8" firstAttribute="bottom" secondItem="i0f-SC-13h" secondAttribute="bottom" id="siR-nZ-axM"/>
+                            <constraint firstItem="ugX-dX-TV8" firstAttribute="trailing" secondItem="wXk-cC-hB1" secondAttribute="trailing" id="XMT-P2-Hpq"/>
+                            <constraint firstItem="ugX-dX-TV8" firstAttribute="top" secondItem="wXk-cC-hB1" secondAttribute="top" id="ctf-Hv-e0u"/>
+                            <constraint firstItem="i0f-SC-13h" firstAttribute="leading" secondItem="wXk-cC-hB1" secondAttribute="leading" id="pQJ-g0-FjD"/>
+                            <constraint firstItem="i0f-SC-13h" firstAttribute="trailing" secondItem="wXk-cC-hB1" secondAttribute="trailing" id="s51-sz-Pk7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="f3p-OS-H8D"/>
                     </view>
                     <connections>
                         <outlet property="customToolBar" destination="i0f-SC-13h" id="9Nu-az-mDZ"/>
@@ -217,21 +241,707 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QUq-4T-HZ3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1349.5999999999999" y="31.934032983508249"/>
+            <point key="canvasLocation" x="1349.5999999999999" y="31.773399014778327"/>
+        </scene>
+        <!--Company Detail View Controller-->
+        <scene sceneID="FDV-p4-AgH">
+            <objects>
+                <viewController storyboardIdentifier="CompanyDetailViewController" id="qKK-g2-86D" customClass="CompanyDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WTK-A7-8xN"/>
+                        <viewControllerLayoutGuide type="bottom" id="gI6-c0-2U9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Kh-cD-Kjl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background1" translatesAutoresizingMaskIntoConstraints="NO" id="Kmu-9Y-dcc">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="und-Db-a5H">
+                                <rect key="frame" x="16" y="64" width="343" height="714"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Boehringer Ingelheim
+
+	การพัฒนาสุขภาพและส่งเสริมคุณภาพชีวิตของผู้ป่วยคือเป้าหมายหลักของบริษัทเภสัชกรรมที่ขับเคลื่อนด้วยงานวิจัยอย่าง เบอริงเกอร์ อินเกลไฮม์ (Boehringer Ingelheim) งานวิจัยของเบอริงเกอร์มักให้ความสำคัญไปยังโรคต่างๆ ซึ่งยังไม่มีวิธีการรักษาที่ให้ผลลัพธ์น่าพึงพอใจในปัจจุบัน บริษัทฯ จึงมุ่งมั่นที่จะพัฒนาการรักษาโรคด้วยนวัตกรรมใหม่ๆ ที่ได้ผลและสามารถยืดเวลาชีวิตของผู้ป่วยได้
+	บริษัทเบอริงเกอร์ อินเกลไฮม์ก่อตั้งขึ้นในปี 1885 โดยนายอัลเบิร์ต อินเกลไฮม์ ณ ประเทศเยอรมนี กว่าหนึ่งทศวรรษที่ก้าวผ่าน จากบริษัทที่มีลูกจ้างเพียง 28 คนในวันนั้น เติบใหญ่เป็นหนึ่งใน 20 บริษัทยาชั้นนำแห่งวงการเภสัชกรรม และมีพนักงานกว่า 50,000 คนทั่วโลกในวันนี้ พนักงานทุกคนต่างร่วมกันเสริมสร้างคุณค่าให้กับองค์กร ผ่านการคิดค้นพัฒนานวัตกรรมสามตัวหลัก ได้แก่ ยาสำหรับมนุษย์ เวชภัณฑ์สัตว์ และชีวเภสัชภัณฑ์ อย่างสม่ำเสมอ  นอกจากนี้ ความรับผิดชอบต่อเพื่อนร่วมโลกและสิ่งแวดล้อมคือสิ่งที่เบอริงเกอร์ อินเกลไฮม์ยึดมั่นมาโดยตลอดอีกด้วย
+	ด้วยการเป็นธุรกิจครอบครัวสืบทอดรุ่นสู่รุ่นและมุ่งเน้นสู่ความสำเร็จระยะยาว เบอริงเกอร์ อินเกลไฮม์จึงตั้งเป้าที่จะสร้างรากฐานให้มั่นคงด้วยทรัพยากรที่มีอยู่ ขณะเดียวกันก็เปิดกว้างด้านโอกาสทางธุรกิจให้กับหุ้นส่วนพันธมิตรเชิงกลยุทธ์ที่สนใจลงทุนให้กับการวิจัยอีกด้วย ในปี 2017 เบอริงเกอร์ อินเกลไฮม์ทำยอดขายสุทธิอยู่ที่เกือบ 1.81 หมื่นล้านยูโร โดยลงทุนให้กับการวิจัยและพัฒนาราว 3 พันล้านยูโร ซึ่งคิดเป็น 17% ของยอดขายสุทธิ
+
+Boehringer Ingelheim Animal Health
+
+ 	บริษัทเบอริงเกอร์ อินเกลไฮม์ แอนิมอล เฮลธ์ คือธุรกิจเวชภัณฑ์สัตว์ชั้นนำระดับโลก ซึ่งยืนหยัดในความเชื่อว่าในอนาคต จะไม่มีสัตว์ตัวใดต้องเจ็บป่วยจากโรคร้าย โดยมุ่งมั่นที่จะ
+ให้ความสำคัญกับการดูแลสุขภาพสัตว์ในรูปแบบที่ทันสมัยและ preventive
+คิดค้นและพัฒนา วัคซีน ยารักษาโรคพยาธิ และยาชนิดอื่นๆ เพื่อป้องกันโรคให้กับสัตว์
+ศึกษาและพัฒนาแนวทางรักษาโรคใหม่ๆ ที่ทันสมัยขึ้น เพื่อให้จัดการกับโรคเรื้อรังอย่างมีประสิทธิภาพยิ่งขึ้น รวมไปถึงการบรรเทาอาการเจ็บปวดที่เกิดจากโรค และชะลอการพัฒนาของโรค
+	เบอริงเกอร์ อินเกลไฮม์ แอนิมอล เฮลธ์ ได้พลิกโฉมอนาคตของแวดวงสุขภาพสัตว์ด้วยวิทยาการและนวัตกรรมต่างๆ พนักงานมากความเชี่ยวชาญของบริษัทพร้อมที่จะยื่นมือสนับสนุนเหล่าเกษตรกร สัตวแพทย์ และเจ้าของสัตว์เลี้ยง ด้วยนวัตกรรมใหม่ที่ช่วยให้การดูแลสัตว์ให้มีสุขภาพดีไม่ใช่เรื่องยากต่อไป และเมื่อสัตว์แทบจะเป็นส่วนหนึ่งของชีวิตมนุษย์ในปัจจุบัน เบอริงเกอร์จึงไม่หยุดเพียงที่การรักษาเท่านั้น แต่ยังคงค้นคว้าต่อไปเพื่อหาแนวทางการป้องกันโรคให้ชะงัด
+</mutableString>
+                                <color key="textColor" red="0.97636479139999999" green="0.97653168440000004" blue="0.9763541818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQA-g8-5Le">
+                                <rect key="frame" x="318" y="39" width="30" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="j69-N2-zKq"/>
+                                    <constraint firstAttribute="width" constant="30" id="y0m-ex-OAP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.97636479139999999" green="0.97653168440000004" blue="0.9763541818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeButtonTapped:" destination="qKK-g2-86D" eventType="touchUpInside" id="6v8-O8-jPY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Kmu-9Y-dcc" secondAttribute="trailing" id="222-WB-9P7"/>
+                            <constraint firstItem="Kmu-9Y-dcc" firstAttribute="leading" secondItem="2Kh-cD-Kjl" secondAttribute="leading" id="3wq-Io-FaU"/>
+                            <constraint firstItem="pQA-g8-5Le" firstAttribute="top" secondItem="2Kh-cD-Kjl" secondAttribute="top" constant="39" id="5Wo-Rf-rba"/>
+                            <constraint firstAttribute="bottom" secondItem="Kmu-9Y-dcc" secondAttribute="bottom" id="HmY-Ft-wxq"/>
+                            <constraint firstItem="und-Db-a5H" firstAttribute="top" secondItem="WTK-A7-8xN" secondAttribute="bottom" constant="20" id="KQP-uh-0Lb"/>
+                            <constraint firstItem="gI6-c0-2U9" firstAttribute="top" secondItem="und-Db-a5H" secondAttribute="bottom" id="V0U-c8-upb"/>
+                            <constraint firstItem="Kmu-9Y-dcc" firstAttribute="top" secondItem="2Kh-cD-Kjl" secondAttribute="top" id="VTi-WD-scs"/>
+                            <constraint firstItem="und-Db-a5H" firstAttribute="leading" secondItem="2Kh-cD-Kjl" secondAttribute="leadingMargin" id="fov-bp-NAA"/>
+                            <constraint firstAttribute="trailing" secondItem="pQA-g8-5Le" secondAttribute="trailing" constant="27" id="vFB-NW-qsf"/>
+                            <constraint firstItem="und-Db-a5H" firstAttribute="trailing" secondItem="2Kh-cD-Kjl" secondAttribute="trailingMargin" id="zXz-Ve-t0j"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="pQA-g8-5Le" id="pQY-1H-Kv5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DZX-4C-4m8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2432.8000000000002" y="31.773399014778327"/>
+        </scene>
+        <!--Reward View Controller-->
+        <scene sceneID="DOC-pZ-FFZ">
+            <objects>
+                <viewController storyboardIdentifier="RewardViewController" id="h2A-IM-JVR" customClass="RewardViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lVR-ef-JnJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="8rO-ei-Sm1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QXT-MR-Eu5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reward" translatesAutoresizingMaskIntoConstraints="NO" id="skE-tT-r53">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="IMf-3c-Rgg">
+                                <rect key="frame" x="0.0" y="88" width="375" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="qYY-JZ-Fb1"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dtz-VY-G1p" customClass="CustomToolBar">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="lQH-tA-Tsk"/>
+                                    <barButtonItem tag="1" title="Company" image="company_icon" id="Ft1-Vz-qXA">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="h2A-IM-JVR" id="mkf-BU-03n"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="YpA-RU-BQw"/>
+                                    <barButtonItem tag="2" title="Profile" image="profile_icon" width="40" id="EM9-4e-fma">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="h2A-IM-JVR" id="crB-jY-36F"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hDA-a6-CCk"/>
+                                    <barButtonItem tag="3" title="Product" image="order_icon" width="40" id="YOT-5E-NSf">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="h2A-IM-JVR" id="gLu-gc-7xA"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="sxR-UF-sW4"/>
+                                    <barButtonItem tag="4" title="reward" image="reward_icon" width="40" id="VCa-Jd-oWI">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="h2A-IM-JVR" id="Dhs-Dy-nYF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="QvI-8q-8yk"/>
+                                    <barButtonItem tag="5" title="Vaccine" image="vaccine_icon" width="40" id="0GT-a8-nss">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="h2A-IM-JVR" id="C1K-2z-LQ5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="9ww-0r-oRP"/>
+                                    <barButtonItem tag="6" title="Annoucement" image="annouce_icon" width="40" id="WTS-T1-6yk">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="h2A-IM-JVR" id="zwY-vK-nfi"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hQa-3w-s7x"/>
+                                    <barButtonItem tag="7" title="Survey" image="survey_icon" width="40" style="plain" id="uyj-Ee-D8q">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="h2A-IM-JVR" id="mwb-rM-6e0"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="883-qB-ju2"/>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="skE-tT-r53" firstAttribute="trailing" secondItem="QXT-MR-Eu5" secondAttribute="trailing" id="1Yz-Sd-ycD"/>
+                            <constraint firstAttribute="bottom" secondItem="skE-tT-r53" secondAttribute="bottom" id="1ah-Jz-aH5"/>
+                            <constraint firstItem="IMf-3c-Rgg" firstAttribute="top" secondItem="dtz-VY-G1p" secondAttribute="bottom" id="GfL-H9-kmK"/>
+                            <constraint firstItem="IMf-3c-Rgg" firstAttribute="trailing" secondItem="QXT-MR-Eu5" secondAttribute="trailing" id="Tig-jU-Ejz"/>
+                            <constraint firstItem="dtz-VY-G1p" firstAttribute="leading" secondItem="QXT-MR-Eu5" secondAttribute="leading" id="WR3-ZQ-o8d"/>
+                            <constraint firstItem="dtz-VY-G1p" firstAttribute="top" secondItem="lVR-ef-JnJ" secondAttribute="bottom" id="a4L-Rw-8Va"/>
+                            <constraint firstItem="IMf-3c-Rgg" firstAttribute="leading" secondItem="QXT-MR-Eu5" secondAttribute="leading" id="mYs-XX-kwL"/>
+                            <constraint firstItem="dtz-VY-G1p" firstAttribute="trailing" secondItem="QXT-MR-Eu5" secondAttribute="trailing" id="trb-2t-wch"/>
+                            <constraint firstItem="skE-tT-r53" firstAttribute="top" secondItem="QXT-MR-Eu5" secondAttribute="top" id="whh-VF-zX4"/>
+                            <constraint firstItem="skE-tT-r53" firstAttribute="leading" secondItem="QXT-MR-Eu5" secondAttribute="leading" id="ynS-s7-Lq6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="customToolBar" destination="dtz-VY-G1p" id="ebW-SM-jaO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LZe-th-KaD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1410" y="1590"/>
+        </scene>
+        <!--Survay View Controller-->
+        <scene sceneID="mcQ-CE-Xbg">
+            <objects>
+                <viewController storyboardIdentifier="SurvayViewController" id="Rfe-Zh-vzR" customClass="SurvayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mmI-CZ-xTU"/>
+                        <viewControllerLayoutGuide type="bottom" id="fMj-bK-1bg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jfl-NO-ETp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="survey" translatesAutoresizingMaskIntoConstraints="NO" id="zHy-SF-sX3">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="DxD-xB-UiO">
+                                <rect key="frame" x="0.0" y="88" width="375" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="mwW-2d-wAc"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5bi-Ph-0Mg" customClass="CustomToolBar">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="E0z-fn-ddG"/>
+                                    <barButtonItem tag="1" title="Company" image="company_icon" id="D46-fc-brC">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="Rfe-Zh-vzR" id="pyR-J9-Vq9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2Tz-TU-mbz"/>
+                                    <barButtonItem tag="2" title="Profile" image="profile_icon" width="40" id="qzW-To-qkh">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="Rfe-Zh-vzR" id="tM0-UZ-0Jj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vAO-4N-cGt"/>
+                                    <barButtonItem tag="3" title="Product" image="order_icon" width="40" id="Pt4-DY-HaN">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="Rfe-Zh-vzR" id="EoA-jk-LIv"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="kty-KP-7eO"/>
+                                    <barButtonItem tag="4" title="reward" image="reward_icon" width="40" id="2PA-rn-RUD">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="Rfe-Zh-vzR" id="2NE-t2-9Kh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Eyo-ZT-d2d"/>
+                                    <barButtonItem tag="5" title="Vaccine" image="vaccine_icon" width="40" id="Um5-OC-mqV">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="Rfe-Zh-vzR" id="3kI-mI-Jmx"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="hPO-TL-Bqb"/>
+                                    <barButtonItem tag="6" title="Annoucement" image="annouce_icon" width="40" id="lud-nP-D6I">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="Rfe-Zh-vzR" id="0PI-up-xmS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="gQU-LH-QMQ"/>
+                                    <barButtonItem tag="7" title="Survey" image="survey_icon" width="40" style="plain" id="X70-KG-AQh">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="Rfe-Zh-vzR" id="RUr-NM-rR8"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="BbB-Ou-grt"/>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5bi-Ph-0Mg" firstAttribute="top" secondItem="mmI-CZ-xTU" secondAttribute="bottom" id="CWQ-yo-V33"/>
+                            <constraint firstItem="DxD-xB-UiO" firstAttribute="top" secondItem="5bi-Ph-0Mg" secondAttribute="bottom" id="D8s-4v-Gwx"/>
+                            <constraint firstItem="zHy-SF-sX3" firstAttribute="trailing" secondItem="Jfl-NO-ETp" secondAttribute="trailing" id="ECM-8k-htv"/>
+                            <constraint firstItem="DxD-xB-UiO" firstAttribute="trailing" secondItem="Jfl-NO-ETp" secondAttribute="trailing" id="MdU-nn-7oN"/>
+                            <constraint firstAttribute="bottom" secondItem="zHy-SF-sX3" secondAttribute="bottom" id="WKO-kM-vnU"/>
+                            <constraint firstItem="zHy-SF-sX3" firstAttribute="top" secondItem="Jfl-NO-ETp" secondAttribute="top" id="dzo-vM-IYu"/>
+                            <constraint firstItem="5bi-Ph-0Mg" firstAttribute="leading" secondItem="Jfl-NO-ETp" secondAttribute="leading" id="iHe-DR-Bie"/>
+                            <constraint firstItem="5bi-Ph-0Mg" firstAttribute="trailing" secondItem="Jfl-NO-ETp" secondAttribute="trailing" id="mcr-jf-c16"/>
+                            <constraint firstItem="zHy-SF-sX3" firstAttribute="leading" secondItem="Jfl-NO-ETp" secondAttribute="leading" id="uje-op-6US"/>
+                            <constraint firstItem="DxD-xB-UiO" firstAttribute="leading" secondItem="Jfl-NO-ETp" secondAttribute="leading" id="wRz-Tj-Alv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="customToolBar" destination="5bi-Ph-0Mg" id="bNy-h7-CwL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Fp-vi-jxF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1350" y="3175"/>
+        </scene>
+        <!--Annouce View Controller-->
+        <scene sceneID="l2h-42-ogS">
+            <objects>
+                <viewController storyboardIdentifier="AnnouceViewController" id="squ-yI-bRq" customClass="AnnouceViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o9c-ET-Hak"/>
+                        <viewControllerLayoutGuide type="bottom" id="2My-Ch-luy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mrA-LN-Sly">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="report" translatesAutoresizingMaskIntoConstraints="NO" id="LET-PK-YCT">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="vu7-Ko-laS">
+                                <rect key="frame" x="0.0" y="88" width="375" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="zCX-JA-60p"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KnP-JB-6pe" customClass="CustomToolBar">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="jek-mm-5Pj"/>
+                                    <barButtonItem tag="1" title="Company" image="company_icon" id="uaU-Ia-v5r">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="squ-yI-bRq" id="OfR-GC-qWI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="8E8-8P-Mc8"/>
+                                    <barButtonItem tag="2" title="Profile" image="profile_icon" width="40" id="Pce-wa-jAH">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="squ-yI-bRq" id="f0d-se-Hxa"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="vSL-ru-WXf"/>
+                                    <barButtonItem tag="3" title="Product" image="order_icon" width="40" id="Cdo-LS-3e9">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="squ-yI-bRq" id="ENz-bG-g0R"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="F0Y-el-cSh"/>
+                                    <barButtonItem tag="4" title="reward" image="reward_icon" width="40" id="71f-Cm-bX2">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="squ-yI-bRq" id="asf-t6-Ega"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="t5Q-Ue-4M7"/>
+                                    <barButtonItem tag="5" title="Vaccine" image="vaccine_icon" width="40" id="hVM-mS-hQw">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="squ-yI-bRq" id="g2c-T5-nIb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="MYm-KJ-reL"/>
+                                    <barButtonItem tag="6" title="Annoucement" image="annouce_icon" width="40" id="PYm-xU-zfl">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="squ-yI-bRq" id="Olr-Sp-OST"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="TZi-Cd-GWW"/>
+                                    <barButtonItem tag="7" title="Survey" image="survey_icon" width="40" style="plain" id="C1c-St-Pdj">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="squ-yI-bRq" id="S59-0u-sO4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="Zjg-om-wmy"/>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LET-PK-YCT" firstAttribute="trailing" secondItem="mrA-LN-Sly" secondAttribute="trailing" id="6Jt-gi-edV"/>
+                            <constraint firstItem="KnP-JB-6pe" firstAttribute="top" secondItem="o9c-ET-Hak" secondAttribute="bottom" id="EdK-oN-fSK"/>
+                            <constraint firstItem="LET-PK-YCT" firstAttribute="leading" secondItem="mrA-LN-Sly" secondAttribute="leading" id="KYQ-kS-pUp"/>
+                            <constraint firstItem="vu7-Ko-laS" firstAttribute="trailing" secondItem="mrA-LN-Sly" secondAttribute="trailing" id="dJF-jc-dnd"/>
+                            <constraint firstItem="vu7-Ko-laS" firstAttribute="leading" secondItem="mrA-LN-Sly" secondAttribute="leading" id="hqv-Sd-WIg"/>
+                            <constraint firstItem="KnP-JB-6pe" firstAttribute="leading" secondItem="mrA-LN-Sly" secondAttribute="leading" id="mny-NX-ySJ"/>
+                            <constraint firstAttribute="bottom" secondItem="LET-PK-YCT" secondAttribute="bottom" id="nKY-Ca-Q7x"/>
+                            <constraint firstItem="LET-PK-YCT" firstAttribute="top" secondItem="mrA-LN-Sly" secondAttribute="top" id="nf6-TZ-isH"/>
+                            <constraint firstItem="KnP-JB-6pe" firstAttribute="trailing" secondItem="mrA-LN-Sly" secondAttribute="trailing" id="p81-EM-Mdo"/>
+                            <constraint firstItem="vu7-Ko-laS" firstAttribute="top" secondItem="KnP-JB-6pe" secondAttribute="bottom" id="tHN-mx-ryL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="customToolBar" destination="KnP-JB-6pe" id="b7H-dj-Jga"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4c9-gw-aCg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1409" y="2376"/>
+        </scene>
+        <!--Product View Controller-->
+        <scene sceneID="T6Y-Jf-raf">
+            <objects>
+                <viewController storyboardIdentifier="ProductViewController" id="0T6-sx-TGb" customClass="ProductViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Rj9-xQ-BmA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uoz-m4-LW3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="77g-8b-47W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="jWm-yb-8sj">
+                                <rect key="frame" x="0.0" y="88" width="375" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="nHX-1l-Ut8"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product" translatesAutoresizingMaskIntoConstraints="NO" id="xTJ-0B-xTh">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <toolbar opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AVV-GU-thn" customClass="CustomToolBar">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="VbZ-cA-Uio"/>
+                                    <barButtonItem tag="1" title="Company" image="company_icon" id="6ws-qZ-HKl">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="0T6-sx-TGb" id="79j-2s-eKL"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="1DD-gS-Awp"/>
+                                    <barButtonItem tag="2" title="Profile" image="profile_icon" width="40" id="FV4-v2-tgS">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="0T6-sx-TGb" id="Dwo-I9-2ls"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="uLU-ZY-Fiz"/>
+                                    <barButtonItem tag="3" title="Product" image="order_icon" width="40" id="KxT-Dr-Gro">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="0T6-sx-TGb" id="cea-5Z-vLT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="0LB-be-sA8"/>
+                                    <barButtonItem tag="4" title="reward" image="reward_icon" width="40" id="Or4-jD-KuF">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="0T6-sx-TGb" id="11b-Ay-O5c"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="OPN-hl-hpI"/>
+                                    <barButtonItem tag="5" title="Vaccine" image="vaccine_icon" width="40" id="HZb-3Y-HQc">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="0T6-sx-TGb" id="JUB-X4-ufD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="48t-M5-0ce"/>
+                                    <barButtonItem tag="6" title="Annoucement" image="annouce_icon" width="40" id="YXM-33-U3C">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="0T6-sx-TGb" id="0dX-ln-ydO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="EzC-Lx-uzb"/>
+                                    <barButtonItem tag="7" title="Survey" image="survey_icon" width="40" style="plain" id="mlW-pu-LxU">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="0T6-sx-TGb" id="nFM-wm-RGH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="AlX-gf-84V"/>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xTJ-0B-xTh" firstAttribute="leading" secondItem="77g-8b-47W" secondAttribute="leading" id="28h-Rf-DCQ"/>
+                            <constraint firstItem="jWm-yb-8sj" firstAttribute="trailing" secondItem="77g-8b-47W" secondAttribute="trailing" id="JCk-gt-OJ2"/>
+                            <constraint firstItem="AVV-GU-thn" firstAttribute="top" secondItem="Rj9-xQ-BmA" secondAttribute="bottom" id="TbK-EI-QGz"/>
+                            <constraint firstItem="xTJ-0B-xTh" firstAttribute="top" secondItem="77g-8b-47W" secondAttribute="top" id="Wqa-wg-LN0"/>
+                            <constraint firstItem="AVV-GU-thn" firstAttribute="leading" secondItem="77g-8b-47W" secondAttribute="leading" id="a3w-oo-gHK"/>
+                            <constraint firstItem="jWm-yb-8sj" firstAttribute="leading" secondItem="77g-8b-47W" secondAttribute="leading" id="ctR-Vq-clB"/>
+                            <constraint firstItem="xTJ-0B-xTh" firstAttribute="trailing" secondItem="77g-8b-47W" secondAttribute="trailing" id="dh7-Ot-45h"/>
+                            <constraint firstItem="jWm-yb-8sj" firstAttribute="top" secondItem="AVV-GU-thn" secondAttribute="bottom" id="lMz-Cr-VVn"/>
+                            <constraint firstItem="AVV-GU-thn" firstAttribute="trailing" secondItem="77g-8b-47W" secondAttribute="trailing" id="q7A-jx-B2b"/>
+                            <constraint firstAttribute="bottom" secondItem="xTJ-0B-xTh" secondAttribute="bottom" id="vzu-cS-bj0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="customToolBar" destination="AVV-GU-thn" id="j0R-cC-Vge"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rvY-lA-IIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1350" y="872"/>
+        </scene>
+        <!--Survay View Controller-->
+        <scene sceneID="2gT-GX-sgK">
+            <objects>
+                <viewController storyboardIdentifier="SurvayViewController2" id="dMJ-xy-b28" customClass="SurvayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CVP-JR-wYD"/>
+                        <viewControllerLayoutGuide type="bottom" id="hja-li-DzS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="uSr-6C-JeK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="offer" translatesAutoresizingMaskIntoConstraints="NO" id="Xt4-PS-CDe">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="DM7-NN-Cag">
+                                <rect key="frame" x="0.0" y="88" width="375" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="AKA-Cr-wLp"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yfz-ig-CYV" customClass="CustomToolBar">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="aBh-NU-PgC"/>
+                                    <barButtonItem tag="1" title="Company" image="company_icon" id="5sj-dP-s33">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="dMJ-xy-b28" id="175-nE-A9G"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="EcT-vT-bsg"/>
+                                    <barButtonItem tag="2" title="Profile" image="profile_icon" width="40" id="ACi-GM-HWd">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="dMJ-xy-b28" id="XtN-cA-dme"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="tiM-vy-LUc"/>
+                                    <barButtonItem tag="3" title="Product" image="order_icon" width="40" id="v7k-6s-RNs">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="dMJ-xy-b28" id="fkC-AM-XCl"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="2Ua-Sy-g7o"/>
+                                    <barButtonItem tag="4" title="reward" image="reward_icon" width="40" id="x1R-dx-w78">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="dMJ-xy-b28" id="niW-45-X5d"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="O6s-Xg-Mrf"/>
+                                    <barButtonItem tag="5" title="Vaccine" image="vaccine_icon" width="40" id="v3i-F8-eHB">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="dMJ-xy-b28" id="FYt-l2-svc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="OTd-Zx-ou4"/>
+                                    <barButtonItem tag="6" title="Annoucement" image="annouce_icon" width="40" id="EXe-3T-Trv">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="dMJ-xy-b28" id="jcn-La-mxT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Jzh-Ad-gBD"/>
+                                    <barButtonItem tag="7" title="Survey" image="survey_icon" width="40" style="plain" id="ls5-cj-TDC">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="dMJ-xy-b28" id="FVe-lB-dj1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="Yid-Tw-P81"/>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Xt4-PS-CDe" firstAttribute="trailing" secondItem="uSr-6C-JeK" secondAttribute="trailing" id="3xQ-kf-8ZK"/>
+                            <constraint firstAttribute="bottom" secondItem="Xt4-PS-CDe" secondAttribute="bottom" id="8aU-eP-b8L"/>
+                            <constraint firstItem="Yfz-ig-CYV" firstAttribute="top" secondItem="CVP-JR-wYD" secondAttribute="bottom" id="93Z-bK-5fe"/>
+                            <constraint firstItem="Xt4-PS-CDe" firstAttribute="top" secondItem="uSr-6C-JeK" secondAttribute="top" id="EcH-kS-M7M"/>
+                            <constraint firstItem="Xt4-PS-CDe" firstAttribute="leading" secondItem="uSr-6C-JeK" secondAttribute="leading" id="Tq5-HE-Oyu"/>
+                            <constraint firstItem="DM7-NN-Cag" firstAttribute="leading" secondItem="uSr-6C-JeK" secondAttribute="leading" id="ahU-Jj-98x"/>
+                            <constraint firstItem="Yfz-ig-CYV" firstAttribute="trailing" secondItem="uSr-6C-JeK" secondAttribute="trailing" id="eQI-6D-krt"/>
+                            <constraint firstItem="Yfz-ig-CYV" firstAttribute="leading" secondItem="uSr-6C-JeK" secondAttribute="leading" id="r1C-ba-GAT"/>
+                            <constraint firstItem="DM7-NN-Cag" firstAttribute="top" secondItem="Yfz-ig-CYV" secondAttribute="bottom" id="rJH-tQ-69w"/>
+                            <constraint firstItem="DM7-NN-Cag" firstAttribute="trailing" secondItem="uSr-6C-JeK" secondAttribute="trailing" id="tzY-4B-MD5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="customToolBar" destination="Yfz-ig-CYV" id="lhT-kV-8eO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p2m-3X-fOY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1350" y="3949"/>
+        </scene>
+        <!--Survay View Controller-->
+        <scene sceneID="ovI-hD-c1H">
+            <objects>
+                <viewController storyboardIdentifier="SurvayViewController3" id="FQS-bA-7UT" customClass="SurvayViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2R0-aJ-BFp"/>
+                        <viewControllerLayoutGuide type="bottom" id="KPl-FA-hHX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XpP-FG-Wor">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="news" translatesAutoresizingMaskIntoConstraints="NO" id="Alx-fn-WFY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="9le-M0-XaI">
+                                <rect key="frame" x="0.0" y="88" width="375" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="DIh-K7-BuQ"/>
+                                </constraints>
+                            </imageView>
+                            <toolbar opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8I-ky-cqr" customClass="CustomToolBar">
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="3I4-2s-U1e"/>
+                                    <barButtonItem tag="1" title="Company" image="company_icon" id="TMm-Pe-wFj">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="FQS-bA-7UT" id="7tv-8P-Ogl"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="qjP-h8-ioI"/>
+                                    <barButtonItem tag="2" title="Profile" image="profile_icon" width="40" id="l62-R1-t7I">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="FQS-bA-7UT" id="yjB-Nw-Bcd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="tL8-7V-FED"/>
+                                    <barButtonItem tag="3" title="Product" image="order_icon" width="40" id="YVH-rT-QGF">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="FQS-bA-7UT" id="0F4-X2-dey"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="3Oq-1x-b11"/>
+                                    <barButtonItem tag="4" title="reward" image="reward_icon" width="40" id="lei-AH-qGb">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="FQS-bA-7UT" id="Sei-ll-IEl"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="5R1-M0-qEM"/>
+                                    <barButtonItem tag="5" title="Vaccine" image="vaccine_icon" width="40" id="1ot-7e-GSD">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="FQS-bA-7UT" id="pGW-go-X0H"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="sbE-o2-hIR"/>
+                                    <barButtonItem tag="6" title="Annoucement" image="annouce_icon" width="40" id="VXC-z3-mMs">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="FQS-bA-7UT" id="OGJ-Vq-ROw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="S4v-W8-mEH"/>
+                                    <barButtonItem tag="7" title="Survey" image="survey_icon" width="40" style="plain" id="OSw-zd-Un4">
+                                        <color key="tintColor" red="0.1450980392" green="0.2274509804" blue="0.48627450979999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="menuButtonTapped:" destination="FQS-bA-7UT" id="IZj-L0-TJb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="DOg-VB-wfu"/>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Alx-fn-WFY" secondAttribute="bottom" id="6et-Ty-Ihp"/>
+                            <constraint firstItem="9le-M0-XaI" firstAttribute="trailing" secondItem="XpP-FG-Wor" secondAttribute="trailing" id="Ewh-um-rNI"/>
+                            <constraint firstItem="Alx-fn-WFY" firstAttribute="leading" secondItem="XpP-FG-Wor" secondAttribute="leading" id="H2r-ge-5AB"/>
+                            <constraint firstItem="R8I-ky-cqr" firstAttribute="trailing" secondItem="XpP-FG-Wor" secondAttribute="trailing" id="KpV-Tu-yXB"/>
+                            <constraint firstItem="Alx-fn-WFY" firstAttribute="trailing" secondItem="XpP-FG-Wor" secondAttribute="trailing" id="SN8-CM-rC1"/>
+                            <constraint firstItem="R8I-ky-cqr" firstAttribute="top" secondItem="2R0-aJ-BFp" secondAttribute="bottom" id="VXj-ge-tvv"/>
+                            <constraint firstItem="Alx-fn-WFY" firstAttribute="top" secondItem="XpP-FG-Wor" secondAttribute="top" id="fba-0h-m16"/>
+                            <constraint firstItem="9le-M0-XaI" firstAttribute="top" secondItem="R8I-ky-cqr" secondAttribute="bottom" id="q4U-KV-92r"/>
+                            <constraint firstItem="9le-M0-XaI" firstAttribute="leading" secondItem="XpP-FG-Wor" secondAttribute="leading" id="tg4-Y9-wWS"/>
+                            <constraint firstItem="R8I-ky-cqr" firstAttribute="leading" secondItem="XpP-FG-Wor" secondAttribute="leading" id="wDc-ew-EJr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="customToolBar" destination="R8I-ky-cqr" id="KCg-iX-v35"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jXo-DC-IRw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2554" y="3174"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Background1" width="165" height="234"/>
         <image name="annouce_icon" width="28" height="19"/>
         <image name="company_icon" width="25" height="26"/>
+        <image name="company_tmp" width="750" height="1334"/>
         <image name="login_background" width="750" height="1334"/>
-        <image name="login_icon" width="270" height="270"/>
+        <image name="login_icon" width="270" height="270.33334350585938"/>
         <image name="login_user" width="283" height="283"/>
+        <image name="news" width="750" height="1334"/>
+        <image name="offer" width="750" height="1334"/>
         <image name="order_icon" width="21" height="26"/>
+        <image name="product" width="750" height="1334"/>
         <image name="profile_icon" width="27" height="23"/>
+        <image name="report" width="750" height="1334"/>
+        <image name="reward" width="750" height="1334"/>
         <image name="reward_icon" width="18" height="26"/>
+        <image name="survey" width="750" height="1334"/>
         <image name="survey_icon" width="20" height="24"/>
-        <image name="toolbar_background" width="256" height="62"/>
-        <image name="toolbar_shadow" width="256" height="25"/>
+        <image name="toolbar_shadow" width="256" height="25.666666030883789"/>
         <image name="vaccine_icon" width="27" height="25"/>
     </resources>
 </document>

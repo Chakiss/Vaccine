@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B067E2C213EDA9A007A8A7F /* RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B067E2B213EDA9A007A8A7F /* RewardViewController.m */; };
+		1B067E2F213EDBB3007A8A7F /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B067E2E213EDBB3007A8A7F /* ParentViewController.m */; };
+		1B067E33213EE09B007A8A7F /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B067E32213EE09B007A8A7F /* ProductViewController.m */; };
+		1B067E37213EE1ED007A8A7F /* AnnouceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B067E36213EE1ED007A8A7F /* AnnouceViewController.m */; };
+		1B26840621AC43340095AE61 /* video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 1B26840521AC43340095AE61 /* video.m4v */; };
 		1B2A9A9A213453DC001592FF /* CustomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A9A99213453DC001592FF /* CustomToolBar.m */; };
 		1B2C9FA4212158AD00472FA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */; };
 		1B2C9FAA21215C4B00472FA1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C9FA921215C4B00472FA1 /* LoginViewController.m */; };
+		1B31546C21A93AF000F56D61 /* CompanyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B31546B21A93AF000F56D61 /* CompanyDetailViewController.m */; };
 		1B5C1AD121217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 1B5C1AD021217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF */; };
 		1B5C1AD421217E480004474C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C1AD321217E480004474C /* User.m */; };
 		1B5C1AD8212180720004474C /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5C1AD7212180720004474C /* UserManager.m */; };
@@ -20,6 +26,7 @@
 		1B6E1B23212155390056473B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B22212155390056473B /* main.m */; };
 		1B6E1B2D212155390056473B /* VaccineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B2C212155390056473B /* VaccineTests.m */; };
 		1B6E1B38212155390056473B /* VaccineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6E1B37212155390056473B /* VaccineUITests.m */; };
+		1B735ECA21416CE00017724D /* SurvayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B735EC921416CE00017724D /* SurvayViewController.m */; };
 		1BC9893E212DC7C2003D2EF6 /* CompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC9893D212DC7C2003D2EF6 /* CompanyViewController.m */; };
 		2725E9B80F9DCA6087EDF11D /* libPods-VaccineUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6CF8F408B448B8E3D017E8 /* libPods-VaccineUITests.a */; };
 		3A01779D53A50F3EDA8DA3C0 /* libPods-Vaccine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9307021B1BEF4C363DA836 /* libPods-Vaccine.a */; };
@@ -44,11 +51,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B067E2A213EDA9A007A8A7F /* RewardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewardViewController.h; sourceTree = "<group>"; };
+		1B067E2B213EDA9A007A8A7F /* RewardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewardViewController.m; sourceTree = "<group>"; };
+		1B067E2D213EDBB3007A8A7F /* ParentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		1B067E2E213EDBB3007A8A7F /* ParentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		1B067E31213EE09B007A8A7F /* ProductViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductViewController.h; sourceTree = "<group>"; };
+		1B067E32213EE09B007A8A7F /* ProductViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
+		1B067E35213EE1ED007A8A7F /* AnnouceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnouceViewController.h; sourceTree = "<group>"; };
+		1B067E36213EE1ED007A8A7F /* AnnouceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnouceViewController.m; sourceTree = "<group>"; };
+		1B26840521AC43340095AE61 /* video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.m4v; sourceTree = "<group>"; };
 		1B2A9A98213453DC001592FF /* CustomToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomToolBar.h; sourceTree = "<group>"; };
 		1B2A9A99213453DC001592FF /* CustomToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomToolBar.m; sourceTree = "<group>"; };
 		1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1B2C9FA821215C4B00472FA1 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		1B2C9FA921215C4B00472FA1 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1B31546A21A93AF000F56D61 /* CompanyDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyDetailViewController.h; sourceTree = "<group>"; };
+		1B31546B21A93AF000F56D61 /* CompanyDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanyDetailViewController.m; sourceTree = "<group>"; };
 		1B5C1AD021217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ADOBEGOTHICSTD-BOLD.OTF"; sourceTree = "<group>"; };
 		1B5C1AD221217E480004474C /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		1B5C1AD321217E480004474C /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
@@ -69,6 +87,8 @@
 		1B6E1B33212155390056473B /* VaccineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaccineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6E1B37212155390056473B /* VaccineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VaccineUITests.m; sourceTree = "<group>"; };
 		1B6E1B39212155390056473B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B735EC821416CE00017724D /* SurvayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SurvayViewController.h; sourceTree = "<group>"; };
+		1B735EC921416CE00017724D /* SurvayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SurvayViewController.m; sourceTree = "<group>"; };
 		1BC9893C212DC7C2003D2EF6 /* CompanyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompanyViewController.h; sourceTree = "<group>"; };
 		1BC9893D212DC7C2003D2EF6 /* CompanyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompanyViewController.m; sourceTree = "<group>"; };
 		2A3C20D2B8CCB6E0D07CBCB9 /* Pods-VaccineUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VaccineUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VaccineUITests/Pods-VaccineUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +130,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B067E29213EDA27007A8A7F /* Reward */ = {
+			isa = PBXGroup;
+			children = (
+				1B067E2A213EDA9A007A8A7F /* RewardViewController.h */,
+				1B067E2B213EDA9A007A8A7F /* RewardViewController.m */,
+			);
+			path = Reward;
+			sourceTree = "<group>";
+		};
+		1B067E30213EE087007A8A7F /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				1B067E31213EE09B007A8A7F /* ProductViewController.h */,
+				1B067E32213EE09B007A8A7F /* ProductViewController.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		1B067E34213EE1CB007A8A7F /* Annouce */ = {
+			isa = PBXGroup;
+			children = (
+				1B067E35213EE1ED007A8A7F /* AnnouceViewController.h */,
+				1B067E36213EE1ED007A8A7F /* AnnouceViewController.m */,
+			);
+			path = Annouce;
+			sourceTree = "<group>";
+		};
+		1B26840221AC3D510095AE61 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B26840521AC43340095AE61 /* video.m4v */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1B2A9A97213452D5001592FF /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,8 +188,14 @@
 		1B2C9FA621215A5B00472FA1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1B067E2D213EDBB3007A8A7F /* ParentViewController.h */,
+				1B067E2E213EDBB3007A8A7F /* ParentViewController.m */,
 				1B2C9FA721215C2C00472FA1 /* Login */,
 				1BC98938212DC77A003D2EF6 /* Company */,
+				1B067E30213EE087007A8A7F /* Product */,
+				1B067E29213EDA27007A8A7F /* Reward */,
+				1B067E34213EE1CB007A8A7F /* Annouce */,
+				1B735EC721416CB60017724D /* Survey */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -201,6 +262,7 @@
 				1B6E1B21212155390056473B /* Info.plist */,
 				1B6E1B22212155390056473B /* main.m */,
 				1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */,
+				1B26840221AC3D510095AE61 /* Resources */,
 				1B5C1ACE21217A350004474C /* Support files */,
 			);
 			path = Vaccine;
@@ -224,11 +286,22 @@
 			path = VaccineUITests;
 			sourceTree = "<group>";
 		};
+		1B735EC721416CB60017724D /* Survey */ = {
+			isa = PBXGroup;
+			children = (
+				1B735EC821416CE00017724D /* SurvayViewController.h */,
+				1B735EC921416CE00017724D /* SurvayViewController.m */,
+			);
+			path = Survey;
+			sourceTree = "<group>";
+		};
 		1BC98938212DC77A003D2EF6 /* Company */ = {
 			isa = PBXGroup;
 			children = (
 				1BC9893C212DC7C2003D2EF6 /* CompanyViewController.h */,
 				1BC9893D212DC7C2003D2EF6 /* CompanyViewController.m */,
+				1B31546A21A93AF000F56D61 /* CompanyDetailViewController.h */,
+				1B31546B21A93AF000F56D61 /* CompanyDetailViewController.m */,
 			);
 			path = Company;
 			sourceTree = "<group>";
@@ -364,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B6E1B20212155390056473B /* LaunchScreen.storyboard in Resources */,
+				1B26840621AC43340095AE61 /* video.m4v in Resources */,
 				1B2C9FA4212158AD00472FA1 /* GoogleService-Info.plist in Resources */,
 				1B6E1B1D212155390056473B /* Assets.xcassets in Resources */,
 				1B5C1AD121217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF in Resources */,
@@ -470,12 +544,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BC9893E212DC7C2003D2EF6 /* CompanyViewController.m in Sources */,
+				1B067E37213EE1ED007A8A7F /* AnnouceViewController.m in Sources */,
 				1B5C1AD421217E480004474C /* User.m in Sources */,
+				1B067E33213EE09B007A8A7F /* ProductViewController.m in Sources */,
 				1B2C9FAA21215C4B00472FA1 /* LoginViewController.m in Sources */,
 				1B5C1AD8212180720004474C /* UserManager.m in Sources */,
+				1B735ECA21416CE00017724D /* SurvayViewController.m in Sources */,
 				1B2A9A9A213453DC001592FF /* CustomToolBar.m in Sources */,
+				1B31546C21A93AF000F56D61 /* CompanyDetailViewController.m in Sources */,
+				1B067E2C213EDA9A007A8A7F /* RewardViewController.m in Sources */,
 				1B6E1B23212155390056473B /* main.m in Sources */,
 				1B6E1B15212155380056473B /* AppDelegate.m in Sources */,
+				1B067E2F213EDBB3007A8A7F /* ParentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

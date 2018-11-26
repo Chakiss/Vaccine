@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ParentViewController.h"
 
-@interface CompanyViewController : UIViewController
+@interface CompanyViewController : ParentViewController
 
 @end

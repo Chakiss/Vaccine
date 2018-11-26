@@ -9,11 +9,12 @@
 #import "CompanyViewController.h"
 #import "UserManager.h"
 #import "CustomToolBar.h"
+#import "CompanyDetailViewController.h"
 
 @interface CompanyViewController ()
 
 
-@property (nonatomic, weak) IBOutlet CustomToolBar *customToolBar;
+
 
 @end
 
@@ -23,21 +24,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showCompanyProfile)];
+    [self.view addGestureRecognizer:tapGesture];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:YES];
-    
-    [self.customToolBar setDarkBlueButton];
-    
+    [self.customToolBar setWhiteButton];
     
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)showCompanyProfile {
+    UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    CompanyDetailViewController *companyDetailViewController = [storyBoard instantiateViewControllerWithIdentifier:@"CompanyDetailViewController"];
+    [self presentViewController:companyDetailViewController animated:YES completion:nil];
 }
+
+- (void)didReceiveMemoryWarning {
+    
+}
+
 
 /*
 #pragma mark - Navigation
