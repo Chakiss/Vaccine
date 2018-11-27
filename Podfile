@@ -11,6 +11,9 @@ target 'Vaccine' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
   
+  pod 'FirebaseUI/Firestore', '~> 5.0'
+  pod 'FirebaseUI/Storage', '~> 5.0'
+  
   pod 'SVProgressHUD'
   pod 'AFNetworking', '~> 3.0'
   

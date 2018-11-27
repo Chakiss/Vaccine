@@ -261,7 +261,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="und-Db-a5H">
                                 <rect key="frame" x="16" y="64" width="343" height="714"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Boehringer Ingelheim
+                                <string key="text">Boehringer Ingelheim
 
 	การพัฒนาสุขภาพและส่งเสริมคุณภาพชีวิตของผู้ป่วยคือเป้าหมายหลักของบริษัทเภสัชกรรมที่ขับเคลื่อนด้วยงานวิจัยอย่าง เบอริงเกอร์ อินเกลไฮม์ (Boehringer Ingelheim) งานวิจัยของเบอริงเกอร์มักให้ความสำคัญไปยังโรคต่างๆ ซึ่งยังไม่มีวิธีการรักษาที่ให้ผลลัพธ์น่าพึงพอใจในปัจจุบัน บริษัทฯ จึงมุ่งมั่นที่จะพัฒนาการรักษาโรคด้วยนวัตกรรมใหม่ๆ ที่ได้ผลและสามารถยืดเวลาชีวิตของผู้ป่วยได้
 	บริษัทเบอริงเกอร์ อินเกลไฮม์ก่อตั้งขึ้นในปี 1885 โดยนายอัลเบิร์ต อินเกลไฮม์ ณ ประเทศเยอรมนี กว่าหนึ่งทศวรรษที่ก้าวผ่าน จากบริษัทที่มีลูกจ้างเพียง 28 คนในวันนั้น เติบใหญ่เป็นหนึ่งใน 20 บริษัทยาชั้นนำแห่งวงการเภสัชกรรม และมีพนักงานกว่า 50,000 คนทั่วโลกในวันนี้ พนักงานทุกคนต่างร่วมกันเสริมสร้างคุณค่าให้กับองค์กร ผ่านการคิดค้นพัฒนานวัตกรรมสามตัวหลัก ได้แก่ ยาสำหรับมนุษย์ เวชภัณฑ์สัตว์ และชีวเภสัชภัณฑ์ อย่างสม่ำเสมอ  นอกจากนี้ ความรับผิดชอบต่อเพื่อนร่วมโลกและสิ่งแวดล้อมคือสิ่งที่เบอริงเกอร์ อินเกลไฮม์ยึดมั่นมาโดยตลอดอีกด้วย
@@ -274,7 +274,7 @@ Boehringer Ingelheim Animal Health
 คิดค้นและพัฒนา วัคซีน ยารักษาโรคพยาธิ และยาชนิดอื่นๆ เพื่อป้องกันโรคให้กับสัตว์
 ศึกษาและพัฒนาแนวทางรักษาโรคใหม่ๆ ที่ทันสมัยขึ้น เพื่อให้จัดการกับโรคเรื้อรังอย่างมีประสิทธิภาพยิ่งขึ้น รวมไปถึงการบรรเทาอาการเจ็บปวดที่เกิดจากโรค และชะลอการพัฒนาของโรค
 	เบอริงเกอร์ อินเกลไฮม์ แอนิมอล เฮลธ์ ได้พลิกโฉมอนาคตของแวดวงสุขภาพสัตว์ด้วยวิทยาการและนวัตกรรมต่างๆ พนักงานมากความเชี่ยวชาญของบริษัทพร้อมที่จะยื่นมือสนับสนุนเหล่าเกษตรกร สัตวแพทย์ และเจ้าของสัตว์เลี้ยง ด้วยนวัตกรรมใหม่ที่ช่วยให้การดูแลสัตว์ให้มีสุขภาพดีไม่ใช่เรื่องยากต่อไป และเมื่อสัตว์แทบจะเป็นส่วนหนึ่งของชีวิตมนุษย์ในปัจจุบัน เบอริงเกอร์จึงไม่หยุดเพียงที่การรักษาเท่านั้น แต่ยังคงค้นคว้าต่อไปเพื่อหาแนวทางการป้องกันโรคให้ชะงัด
-</mutableString>
+</string>
                                 <color key="textColor" red="0.97636479139999999" green="0.97653168440000004" blue="0.9763541818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -310,6 +310,7 @@ Boehringer Ingelheim Animal Health
                     </view>
                     <connections>
                         <outlet property="closeButton" destination="pQA-g8-5Le" id="pQY-1H-Kv5"/>
+                        <outlet property="textView" destination="und-Db-a5H" id="lSN-ZY-8B3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DZX-4C-4m8" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -637,12 +638,12 @@ Boehringer Ingelheim Animal Health
                                     <constraint firstAttribute="height" constant="27" id="nHX-1l-Ut8"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product" translatesAutoresizingMaskIntoConstraints="NO" id="xTJ-0B-xTh">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                            </imageView>
                             <toolbar opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AVV-GU-thn" customClass="CustomToolBar">
                                 <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="ofV-jZ-iO9"/>
+                                </constraints>
                                 <items>
                                     <barButtonItem width="16" style="plain" systemItem="fixedSpace" id="VbZ-cA-Uio"/>
                                     <barButtonItem tag="1" title="Company" image="company_icon" id="6ws-qZ-HKl">
@@ -697,28 +698,95 @@ Boehringer Ingelheim Animal Health
                                 </items>
                                 <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background1" translatesAutoresizingMaskIntoConstraints="NO" id="qgt-86-qMF">
+                                <rect key="frame" x="0.0" y="88" width="375" height="724"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IkG-72-DOg">
+                                <rect key="frame" x="0.0" y="88" width="375" height="724"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ProductCell" rowHeight="105" id="8Bx-XR-I1e" customClass="ProductCell">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="105"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8Bx-XR-I1e" id="h17-3a-Zx7">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QvG-Ju-WJK">
+                                                    <rect key="frame" x="20" y="8" width="335" height="89"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ra8-XV-yUw">
+                                                            <rect key="frame" x="101" y="8" width="226" height="21"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background1" translatesAutoresizingMaskIntoConstraints="NO" id="INh-Ik-OOe">
+                                                            <rect key="frame" x="8" y="8" width="73" height="73"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="73" id="0ra-EL-1Td"/>
+                                                                <constraint firstAttribute="width" constant="73" id="O03-41-SSK"/>
+                                                            </constraints>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="INh-Ik-OOe" firstAttribute="top" secondItem="QvG-Ju-WJK" secondAttribute="top" constant="8" id="cLl-ku-kNb"/>
+                                                        <constraint firstAttribute="bottom" secondItem="INh-Ik-OOe" secondAttribute="bottom" constant="8" id="hXV-FQ-aMU"/>
+                                                        <constraint firstItem="INh-Ik-OOe" firstAttribute="leading" secondItem="QvG-Ju-WJK" secondAttribute="leading" constant="8" id="hy9-1i-emI"/>
+                                                        <constraint firstItem="ra8-XV-yUw" firstAttribute="top" secondItem="QvG-Ju-WJK" secondAttribute="top" constant="8" id="kCX-Ed-SUx"/>
+                                                        <constraint firstAttribute="trailing" secondItem="ra8-XV-yUw" secondAttribute="trailing" constant="8" id="tji-Y9-xRm"/>
+                                                        <constraint firstItem="ra8-XV-yUw" firstAttribute="leading" secondItem="INh-Ik-OOe" secondAttribute="trailing" constant="20" id="w5f-h1-XKN"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="QvG-Ju-WJK" firstAttribute="leading" secondItem="h17-3a-Zx7" secondAttribute="leading" constant="20" id="d4D-lQ-dec"/>
+                                                <constraint firstAttribute="trailing" secondItem="QvG-Ju-WJK" secondAttribute="trailing" constant="20" id="hV1-aX-Pl4"/>
+                                                <constraint firstItem="QvG-Ju-WJK" firstAttribute="top" secondItem="h17-3a-Zx7" secondAttribute="top" constant="8" id="rMd-SZ-XWE"/>
+                                                <constraint firstAttribute="bottom" secondItem="QvG-Ju-WJK" secondAttribute="bottom" constant="8" id="yzD-Jq-3d6"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="productImageView" destination="INh-Ik-OOe" id="CVf-sB-ZjL"/>
+                                            <outlet property="productTitleLabel" destination="ra8-XV-yUw" id="vLX-HS-zNG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="0T6-sx-TGb" id="a61-ms-WV4"/>
+                                    <outlet property="delegate" destination="0T6-sx-TGb" id="sId-F0-Mwa"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="xTJ-0B-xTh" firstAttribute="leading" secondItem="77g-8b-47W" secondAttribute="leading" id="28h-Rf-DCQ"/>
+                            <constraint firstItem="IkG-72-DOg" firstAttribute="top" secondItem="AVV-GU-thn" secondAttribute="bottom" id="BMR-we-qb1"/>
+                            <constraint firstItem="qgt-86-qMF" firstAttribute="leading" secondItem="IkG-72-DOg" secondAttribute="leading" id="EEz-p9-GHx"/>
+                            <constraint firstAttribute="bottom" secondItem="qgt-86-qMF" secondAttribute="bottom" id="G3b-lt-qeR"/>
                             <constraint firstItem="jWm-yb-8sj" firstAttribute="trailing" secondItem="77g-8b-47W" secondAttribute="trailing" id="JCk-gt-OJ2"/>
+                            <constraint firstItem="qgt-86-qMF" firstAttribute="trailing" secondItem="IkG-72-DOg" secondAttribute="trailing" id="Lok-wO-VhL"/>
+                            <constraint firstAttribute="trailing" secondItem="IkG-72-DOg" secondAttribute="trailing" id="Mwg-3E-BU1"/>
+                            <constraint firstItem="IkG-72-DOg" firstAttribute="leading" secondItem="77g-8b-47W" secondAttribute="leading" id="OUr-1O-hRE"/>
+                            <constraint firstItem="qgt-86-qMF" firstAttribute="top" secondItem="AVV-GU-thn" secondAttribute="bottom" id="TNn-pJ-INN"/>
                             <constraint firstItem="AVV-GU-thn" firstAttribute="top" secondItem="Rj9-xQ-BmA" secondAttribute="bottom" id="TbK-EI-QGz"/>
-                            <constraint firstItem="xTJ-0B-xTh" firstAttribute="top" secondItem="77g-8b-47W" secondAttribute="top" id="Wqa-wg-LN0"/>
                             <constraint firstItem="AVV-GU-thn" firstAttribute="leading" secondItem="77g-8b-47W" secondAttribute="leading" id="a3w-oo-gHK"/>
                             <constraint firstItem="jWm-yb-8sj" firstAttribute="leading" secondItem="77g-8b-47W" secondAttribute="leading" id="ctR-Vq-clB"/>
-                            <constraint firstItem="xTJ-0B-xTh" firstAttribute="trailing" secondItem="77g-8b-47W" secondAttribute="trailing" id="dh7-Ot-45h"/>
                             <constraint firstItem="jWm-yb-8sj" firstAttribute="top" secondItem="AVV-GU-thn" secondAttribute="bottom" id="lMz-Cr-VVn"/>
                             <constraint firstItem="AVV-GU-thn" firstAttribute="trailing" secondItem="77g-8b-47W" secondAttribute="trailing" id="q7A-jx-B2b"/>
-                            <constraint firstAttribute="bottom" secondItem="xTJ-0B-xTh" secondAttribute="bottom" id="vzu-cS-bj0"/>
+                            <constraint firstAttribute="bottom" secondItem="IkG-72-DOg" secondAttribute="bottom" id="vlg-YR-fmI"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="customToolBar" destination="AVV-GU-thn" id="j0R-cC-Vge"/>
+                        <outlet property="tableView" destination="IkG-72-DOg" id="GZX-rh-RQf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rvY-lA-IIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1350" y="872"/>
+            <point key="canvasLocation" x="1349.5999999999999" y="871.92118226600985"/>
         </scene>
         <!--Survay View Controller-->
         <scene sceneID="2gT-GX-sgK">
@@ -922,6 +990,93 @@ Boehringer Ingelheim Animal Health
             </objects>
             <point key="canvasLocation" x="2554" y="3174"/>
         </scene>
+        <!--Product Detail View Controller-->
+        <scene sceneID="sxG-x2-efz">
+            <objects>
+                <viewController storyboardIdentifier="ProductDetailViewController" id="TPV-Hn-g01" customClass="ProductDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="03j-Tn-3KE"/>
+                        <viewControllerLayoutGuide type="bottom" id="fJw-sa-MXx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yev-zZ-20P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background1" translatesAutoresizingMaskIntoConstraints="NO" id="xXV-Jf-Uae">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sJs-pe-8ca">
+                                <rect key="frame" x="16" y="380" width="343" height="390"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="390" id="veV-Tw-e62"/>
+                                </constraints>
+                                <mutableString key="text">Boehringer Ingelheim
+
+	การพัฒนาสุขภาพและส่งเสริมคุณภาพชีวิตของผู้ป่วยคือเป้าหมายหลักของบริษัทเภสัชกรรมที่ขับเคลื่อนด้วยงานวิจัยอย่าง เบอริงเกอร์ อินเกลไฮม์ (Boehringer Ingelheim) งานวิจัยของเบอริงเกอร์มักให้ความสำคัญไปยังโรคต่างๆ ซึ่งยังไม่มีวิธีการรักษาที่ให้ผลลัพธ์น่าพึงพอใจในปัจจุบัน บริษัทฯ จึงมุ่งมั่นที่จะพัฒนาการรักษาโรคด้วยนวัตกรรมใหม่ๆ ที่ได้ผลและสามารถยืดเวลาชีวิตของผู้ป่วยได้
+</mutableString>
+                                <color key="textColor" red="0.97636479139999999" green="0.97653168440000004" blue="0.9763541818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YaY-W1-xQb">
+                                <rect key="frame" x="318" y="39" width="30" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="1cb-7g-ddH"/>
+                                    <constraint firstAttribute="height" constant="45" id="Nkx-x9-6et"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="27"/>
+                                <state key="normal" title="x">
+                                    <color key="titleColor" red="0.97636479139999999" green="0.97653168440000004" blue="0.9763541818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="closeButtonTapped:" destination="TPV-Hn-g01" eventType="touchUpInside" id="FYi-lk-3Qf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gR9-gk-2RJ">
+                                <rect key="frame" x="45" y="309" width="303" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Jef-h5-zQe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Q2v-Nt-Mei">
+                                <rect key="frame" x="80" y="84" width="215" height="190"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fJw-sa-MXx" firstAttribute="top" secondItem="sJs-pe-8ca" secondAttribute="bottom" constant="8" symbolic="YES" id="5ad-wK-zsv"/>
+                            <constraint firstItem="sJs-pe-8ca" firstAttribute="leading" secondItem="Yev-zZ-20P" secondAttribute="leadingMargin" id="FHP-Bw-ow7"/>
+                            <constraint firstAttribute="trailing" secondItem="xXV-Jf-Uae" secondAttribute="trailing" id="IJu-M4-zpP"/>
+                            <constraint firstItem="sJs-pe-8ca" firstAttribute="top" secondItem="gR9-gk-2RJ" secondAttribute="bottom" constant="50" id="JwL-2x-vjE"/>
+                            <constraint firstItem="YaY-W1-xQb" firstAttribute="top" secondItem="Yev-zZ-20P" secondAttribute="top" constant="39" id="Kd6-NR-2Pi"/>
+                            <constraint firstItem="sJs-pe-8ca" firstAttribute="centerX" secondItem="xXV-Jf-Uae" secondAttribute="centerX" id="Qt6-Tb-iLQ"/>
+                            <constraint firstItem="Q2v-Nt-Mei" firstAttribute="leading" secondItem="Yev-zZ-20P" secondAttribute="leadingMargin" constant="64" id="UQp-j1-UhC"/>
+                            <constraint firstItem="gR9-gk-2RJ" firstAttribute="top" secondItem="Q2v-Nt-Mei" secondAttribute="bottom" constant="35" id="ahj-1B-SVh"/>
+                            <constraint firstItem="Q2v-Nt-Mei" firstAttribute="top" secondItem="03j-Tn-3KE" secondAttribute="bottom" constant="40" id="fBm-p8-2dO"/>
+                            <constraint firstItem="xXV-Jf-Uae" firstAttribute="top" secondItem="Yev-zZ-20P" secondAttribute="top" id="gqk-f0-lzz"/>
+                            <constraint firstItem="xXV-Jf-Uae" firstAttribute="leading" secondItem="Yev-zZ-20P" secondAttribute="leading" id="iyA-OG-6mk"/>
+                            <constraint firstAttribute="bottom" secondItem="xXV-Jf-Uae" secondAttribute="bottom" id="lZg-NE-nkM"/>
+                            <constraint firstItem="Q2v-Nt-Mei" firstAttribute="centerX" secondItem="sJs-pe-8ca" secondAttribute="centerX" id="laS-hX-7Lh"/>
+                            <constraint firstAttribute="trailing" secondItem="YaY-W1-xQb" secondAttribute="trailing" constant="27" id="pog-u6-KfQ"/>
+                            <constraint firstItem="gR9-gk-2RJ" firstAttribute="leading" secondItem="Yev-zZ-20P" secondAttribute="leadingMargin" constant="29" id="vaQ-f2-4mH"/>
+                            <constraint firstItem="gR9-gk-2RJ" firstAttribute="trailing" secondItem="YaY-W1-xQb" secondAttribute="trailing" id="xaK-5z-JvU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="YaY-W1-xQb" id="Tae-lv-YBR"/>
+                        <outlet property="productImageView" destination="Q2v-Nt-Mei" id="upG-2O-GnQ"/>
+                        <outlet property="productTitleLabel" destination="gR9-gk-2RJ" id="coe-Ix-dGV"/>
+                        <outlet property="textView" destination="sJs-pe-8ca" id="8uw-E3-1cv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TDI-ZA-xeQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2432.8000000000002" y="871.92118226600985"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Background1" width="165" height="234"/>
@@ -933,8 +1088,7 @@ Boehringer Ingelheim Animal Health
         <image name="login_user" width="283" height="283"/>
         <image name="news" width="750" height="1334"/>
         <image name="offer" width="750" height="1334"/>
-        <image name="order_icon" width="21" height="26"/>
-        <image name="product" width="750" height="1334"/>
+        <image name="order_icon" width="21" height="30.333333969116211"/>
         <image name="profile_icon" width="27" height="23"/>
         <image name="report" width="750" height="1334"/>
         <image name="reward" width="750" height="1334"/>

@@ -10,7 +10,7 @@
 
 @interface CompanyDetailViewController ()
 @property (nonatomic , strong) IBOutlet UIButton *closeButton;
-
+@property (nonatomic , strong) IBOutlet UITextView *textView;
 
 @end
 
@@ -21,6 +21,10 @@
     // Do any additional setup after loading the view.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:YES];
+    [self.textView scrollRangeToVisible:NSMakeRange(0, 0)];
+}
 - (IBAction)closeButtonTapped:(id)sender {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
