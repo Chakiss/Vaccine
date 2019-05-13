@@ -31,7 +31,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
+    
+    self.title = @"Product";
     self.defaultFirestore = [FIRFirestore firestore];
     self.productArray = [NSMutableArray array];
     
@@ -39,13 +40,18 @@
     [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeClear];
     FIRCollectionReference *userTypeRef = [self.defaultFirestore collectionWithPath:@"products"];
     [userTypeRef getDocumentsWithCompletion:^(FIRQuerySnapshot * _Nullable snapshotUserType, NSError * _Nullable error) {
+        NSLog(@"snapshotUserType %@",snapshotUserType);
+        NSLog(@"snapshotUserType = %@",snapshotUserType.documents);
         for (FIRQueryDocumentSnapshot *document in snapshotUserType.documents) {
+            
             [self.productArray addObject:document];
             [SVProgressHUD dismiss];
         }
 
         [self.tableView reloadData];
     }];
+    
+    
     // Do any additional setup after loading the view.
 }
 
@@ -93,7 +99,7 @@
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     ProductDetailViewController *productDetailViewController = [storyBoard instantiateViewControllerWithIdentifier:@"ProductDetailViewController"];
     productDetailViewController.product = product;
-    [self presentViewController:productDetailViewController animated:YES completion:nil];
+    [self.navigationController pushViewController:productDetailViewController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

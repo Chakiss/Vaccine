@@ -37,7 +37,8 @@
 - (void)showCompanyProfile {
     UIStoryboard *storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     CompanyDetailViewController *companyDetailViewController = [storyBoard instantiateViewControllerWithIdentifier:@"CompanyDetailViewController"];
-    [self presentViewController:companyDetailViewController animated:YES completion:nil];
+    //[self presentViewController:companyDetailViewController animated:YES completion:nil];
+    [self.navigationController pushViewController:companyDetailViewController animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

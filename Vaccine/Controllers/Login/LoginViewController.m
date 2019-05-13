@@ -67,7 +67,7 @@
                 NSLog(@"User = %@",user.firstName);
                 User *test = [[UserManager sharedManager] currentUser];
                 NSLog(@"ชื่อ =  %@",test.firstName);
-                UIViewController *loginViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CompanyViewController"];
+                UIViewController *loginViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"navigationController"];
                 [[UIApplication sharedApplication].keyWindow setRootViewController:loginViewController];
             }
         } else {

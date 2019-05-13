@@ -25,7 +25,7 @@
 
 
 - (void)showVideo:(id)sender {
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"video" ofType:@"m4v"];
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"video" ofType:@"mp4"];
     NSURL *videoURL = [NSURL fileURLWithPath:filePath];
     //filePath may be from the Bundle or from the Saved file Directory, it is just the path for the video
     AVPlayer *player = [AVPlayer playerWithURL:videoURL];

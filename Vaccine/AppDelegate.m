@@ -29,7 +29,7 @@
     
     if ([[UserManager sharedManager] currentUser]) {
         
-        UIViewController *loginViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CompanyViewController"];
+        UIViewController *loginViewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"navigationController"];
         self.window.rootViewController = loginViewController;
         
     } else {
@@ -52,9 +52,7 @@
                           barMetrics:UIBarMetricsDefault];
     
     [[UIToolbar appearance] setBackgroundColor:[UIColor clearColor]];
-    //[[UIToolbar appearance].layer setBorderWidth:0.0];
-    //[[UIToolbar appearance].layer setBorderColor:[UIColor clearColor].CGColor];
-    //[UIToolbar appearance].clipsToBounds = YES;
+    
 }
 
 - (void)setThirdParty {

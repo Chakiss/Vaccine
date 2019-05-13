@@ -11,7 +11,7 @@
 		1B067E2F213EDBB3007A8A7F /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B067E2E213EDBB3007A8A7F /* ParentViewController.m */; };
 		1B067E33213EE09B007A8A7F /* ProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B067E32213EE09B007A8A7F /* ProductViewController.m */; };
 		1B067E37213EE1ED007A8A7F /* AnnouceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B067E36213EE1ED007A8A7F /* AnnouceViewController.m */; };
-		1B26840621AC43340095AE61 /* video.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 1B26840521AC43340095AE61 /* video.m4v */; };
+		1B1F25D12289581E00E8F959 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1B1F25D02289581E00E8F959 /* video.mp4 */; };
 		1B2A9A9A213453DC001592FF /* CustomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A9A99213453DC001592FF /* CustomToolBar.m */; };
 		1B2C9FA4212158AD00472FA1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */; };
 		1B2C9FAA21215C4B00472FA1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C9FA921215C4B00472FA1 /* LoginViewController.m */; };
@@ -61,7 +61,7 @@
 		1B067E32213EE09B007A8A7F /* ProductViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductViewController.m; sourceTree = "<group>"; };
 		1B067E35213EE1ED007A8A7F /* AnnouceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnnouceViewController.h; sourceTree = "<group>"; };
 		1B067E36213EE1ED007A8A7F /* AnnouceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnnouceViewController.m; sourceTree = "<group>"; };
-		1B26840521AC43340095AE61 /* video.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.m4v; sourceTree = "<group>"; };
+		1B1F25D02289581E00E8F959 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
 		1B2A9A98213453DC001592FF /* CustomToolBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomToolBar.h; sourceTree = "<group>"; };
 		1B2A9A99213453DC001592FF /* CustomToolBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomToolBar.m; sourceTree = "<group>"; };
 		1B2C9FA3212158AD00472FA1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -170,7 +170,7 @@
 		1B26840221AC3D510095AE61 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1B26840521AC43340095AE61 /* video.m4v */,
+				1B1F25D02289581E00E8F959 /* video.mp4 */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -447,7 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B6E1B20212155390056473B /* LaunchScreen.storyboard in Resources */,
-				1B26840621AC43340095AE61 /* video.m4v in Resources */,
+				1B1F25D12289581E00E8F959 /* video.mp4 in Resources */,
 				1B2C9FA4212158AD00472FA1 /* GoogleService-Info.plist in Resources */,
 				1B6E1B1D212155390056473B /* Assets.xcassets in Resources */,
 				1B5C1AD121217A630004474C /* ADOBEGOTHICSTD-BOLD.OTF in Resources */,
